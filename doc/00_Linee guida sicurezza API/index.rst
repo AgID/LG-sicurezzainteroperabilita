@@ -1,5 +1,5 @@
 Linee Guida Tecnologie e standard per assicurare la sicurezza dell'interoperabilità tramite API dei sistemi informatici
-#######################################################################################################################
+###########################################################################################################################
 .. toctree::
   :numbered:
   :maxdepth: 3
@@ -11,4 +11,3 @@ Linee Guida Tecnologie e standard per assicurare la sicurezza dell'interoperabil
   04_sicurezza-livello-trasporto.rst
   05_sicurezza-livello-applicativo.rst
   06_costituzione-trust.rst
-  
