@@ -1,5 +1,5 @@
 Certificati digitali emessi all’interno di domini di interoperabilità specifici
--------------------------------------------------------------------------------
+==================================================================================
 
 Nell'ambito di un dominio di interoperabilità i soggetti afferenti in 
 alternativa a quanto indicato al [5.2.1. Certificati digitali emessi da 
@@ -40,3 +40,35 @@ interoperabilità in cui sono definite:
        di interoperabilità, compreso l’eventuale revoca degli stessi, 
        per ogni invocazione da parte di soggetti delle stesse API per 
        cui è abilitato l’accesso.
+
+Gestione dell'emissione dei certificati digitali
+------------------------------------------------
+
+Il processo di emissione di certificati digitali da parte di una CA del 
+dominio di interoperabilità è caratterizzato dai seguenti passi:
+
+1. Il soggetto richiedente provvede, in autonomia, alla generazione di 
+   una coppia di chiavi asimmetriche nel rispetto delle regole definite 
+   nel dominio di interoperabilità;
+2. Il soggetto richiedente inoltra nei modi definiti nelle regole del 
+   dominio di interoperabilità alla CA del dominio di interoperabilità 
+   la chiave pubblica generata;
+3. La CA del dominio di interoperabilità identifica il soggetto richiedente 
+   e, in caso di identificazione positiva, provvede a firmare la chiave 
+   pubblica generata dal soggetto richiedente.
+
+Gestione della revoca dei certificati digitali
+----------------------------------------------
+
+La CA del dominio di interoperabilità assicura la disponibilità dei 
+necessari servizi per permettere, per ogni invocazione alle proprie 
+API, ai soggetti afferenti ad un dominio di interoperabilità di 
+verificare l’eventuale revoca di certificati digitali emessi.
+
+Gestione della distribuzione dei certificati digitali della CA
+--------------------------------------------------------------
+
+La CA del dominio di interoperabilità, nelle modalità indicate nelle 
+regole del dominio di interoperabilità, inoltra al soggetto richiedente 
+il certificato firmato e/o assicura la distribuzione dei certificati 
+digitali emessi ai soggetti afferenti al dominio di interoperabilità.

@@ -10,6 +10,7 @@ guida “Regole Tecniche e Raccomandazioni afferenti la generazione di
 certificati elettronici qualificati, firme e sigilli elettronici 
 qualificati e validazioni temporali elettroniche qualificate” [1]_.
 
+  
 Tipologia certificati digitali
 ------------------------------
 
