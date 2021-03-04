@@ -45,5 +45,5 @@ erogatori e fruitori.
   :maxdepth: 3
   :caption: Indice dei contenuti
 
-  01_certificati_digitali _utilizzabili.rst
-  02_emissione_distribuzione_certificati_digitali.rst
+  07_costruzione-trust.rst\01_certificati_digitali _utilizzabili.rst
+  07_costruzione-trust.rst\02_emissione_distribuzione_certificati_digitali.rst
