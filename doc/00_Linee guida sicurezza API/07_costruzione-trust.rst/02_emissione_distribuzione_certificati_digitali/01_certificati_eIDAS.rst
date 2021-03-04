@@ -1,3 +1,5 @@
+.. _certificate-eidas:
+
 Certificati digitali emessi da CAQ eIDAS
 ========================================
 

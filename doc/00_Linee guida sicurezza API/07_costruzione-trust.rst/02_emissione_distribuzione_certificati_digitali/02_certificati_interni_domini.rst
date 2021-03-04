@@ -1,3 +1,5 @@
+.. _certificate-internal:
+ 
 Certificati digitali emessi all’interno di domini di interoperabilità specifici
 ==================================================================================
 
@@ -10,10 +12,8 @@ interoperabilità).
 La costituzione del trust è formalizza dalle regole del dominio di 
 interoperabilità in cui sono definite:
 
-- Il dettaglio implementativo dei processi indicati ai successivi 
-  paragrafi [5.1.2.1. OID 2.5.4.97 organizationIdentifier], 
-  [5.1.2.2. OID 2.5.4.11 organizationalUnitName] e 
-  [5.1.2.3. Verifica associazione di certificato X.509 ad una pubblica amministrazione];
+- Il dettaglio implementativo di quanto indicato al paragrafo 
+  :ref:`certificate-type`;
 - Le modalità con cui i soggetti afferenti al dominio di interoperabilità 
   (di seguito soggetto richiedente) inoltrano alla CA del dominio di 
   interoperabilità la richiesta di emissione di un certificato;

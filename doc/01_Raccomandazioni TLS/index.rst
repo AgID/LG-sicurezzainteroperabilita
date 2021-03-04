@@ -9,6 +9,7 @@ Raccomandazioni in merito allo standard Transport Layer Security (TLS)
   01_introduzione.rst
   02_ambito-di-applicazione.rst
   03_riferimenti-e-sigle.rst
-  04_sicurezza-di-canale.rst
-  05_accesso-del-fruitore.rst
-  06_integrita.rst
+  04_tls.rst
+  05_requisiti-minimi.rst
+  06_ulteriori-raccomandazioni.rst
+  07_tls-confronto-versioni.rst

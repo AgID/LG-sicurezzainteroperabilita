@@ -1,3 +1,5 @@
+.. _selection-principles:
+
 Principi per la scelta delle modalità di emissione dei certificati digitali
 ============================================================================
 
@@ -18,9 +20,9 @@ indicati di seguito.
      - Economicità, efficacia ed efficienza della modalità individuata, 
        e nello specifico di quanto indicato in precedenza comparando i 
        costi di emissione dei certificati digitali dovuti alle CAQ, 
-       nel caso indicato al paragrafo 5.2.1, e i costi per la gestione 
-       dei processi e delle infrastrutture per la loro implementazione 
-       indicati al paragrafo 5.2.2.
+       nel caso indicato al paragrafo :ref:`certificate-eidas`, e i 
+       costi per la gestione dei processi e delle infrastrutture per la loro implementazione 
+       indicati al paragrafo :ref:`certificate-internal`.
 
    * - **[SIC_ API_10]** 
      - Nell'ipotesi in cui i dati scambiati per il tramite delle API 
@@ -28,6 +30,5 @@ indicati di seguito.
        (ad esempio servizi per l’emissione di certificazione utilizzati 
        in contesti privati da cittadini e imprese) o siano oggetto 
        dell’interoperabilità transfrontaliera con altri stati delle CE, 
-       si deve utilizzare la modalità indicata al paragrafo [5.2.1. 
-       Certificati digitali emessi da CAQ eIDAS] per assicurare 
-       l’accettazione dei certificati digitali emessi.
+       si deve utilizzare la modalità indicata al paragrafo :ref:`certificate-eidas`
+       per assicurare l’accettazione dei certificati digitali emessi.

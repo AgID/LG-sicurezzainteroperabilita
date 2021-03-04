@@ -115,8 +115,8 @@ Le Linee Guida include, quale strumento operativo, l’allegato
 Digest and signature public key SOAP e Digest and signature public key 
 REST” in cui sono tabellati anche gli algoritmi crittografici individuati 
 in JWA. In merito al citato all’allegato si ricorda che, cosi come 
-indicato al paragrafo 2.2., l’aggiornamento è assicurato attraverso 
-Circolari emanate dall’AgID.
+indicato al paragrafo :ref:`structure`, l’aggiornamento è assicurato 
+attraverso Circolari emanate dall’AgID.
 
 OAuth 2.0
 ---------

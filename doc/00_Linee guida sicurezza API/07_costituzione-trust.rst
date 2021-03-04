@@ -28,22 +28,21 @@ erogatori e fruitori.
    * - **[API_SIC_03]** 
      - I soggetti destinatari DOVREBBERO utilizzare le tipologie dei 
        certificati digitali e, per essi, assicurare il popolamento degli 
-       object identifier indicati al paragrafo 5.1 :ref:`certificate-type`.
+       object identifier indicati al paragrafo :ref:`certificate-type`.
 
    * - **[SIC_API_04.a]** 
      - I soggetti destinatari DOVREBBERO utilizzare le modalità di 
        emissione e distribuzione dei certificati digitali indicati ai 
-       paragrafi 5.2.1 e 5.2.2.
+       paragrafi :ref:`certificate-eidas` e :ref:`certificate-internal`.
 
    * - **[SIC_API_04.b]** 
      - I soggetti destinatari DEVONO considerare i principi indicati 
-       al paragrafo 5.2.3 per la determinazione delle modalità di 
-       emissione e distribuzione dei certificati digitali.
+       al paragrafo :ref:`selection-principles` per la determinazione 
+       delle modalità di emissione e distribuzione dei certificati 
+       digitali.
 
 .. toctree::
-  :numbered:
-  :maxdepth: 3
-  :caption: Indice dei contenuti
-
-  07_costruzione-trust.rst\01_certificati_digitali _utilizzabili.rst
-  07_costruzione-trust.rst\02_emissione_distribuzione_certificati_digitali.rst
+   :maxdepth: 4
+  
+   07_costruzione-trust.rst\01_certificati_digitali_utilizzabili.rst
+   07_costruzione-trust.rst\02_emissione_distribuzione_certificati_digitali.rst

@@ -12,5 +12,5 @@ Raccomandazioni in merito agli algoritmi per XML Canonicalization, Digest and si
   04_XML-canonicalization.rst
   05_digest-SOAP.rst
   06_signature-public-key-SOAP.rst
-  06_digest-signature-public-key-REST.rst
-  06_digest-REST.rst
+  07_digest-signature-public-key-REST.rst
+  0_digest-REST.rst

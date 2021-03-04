@@ -71,7 +71,7 @@ Nel caso in cui il certificato X.509 sia riferito ad un’unità organizzativa
 o area organizzativa omogenea di una specifica pubblica amministrazione, 
 cosi come registrato nell’IPA, la pubblica amministrazione al momento 
 della generazione dello stesso certificato assicura, oltre a quanto indicato 
-al paragrafo 5.1.2.2, il popolamento dell’OID 2.5.4.11 organizationalUnitName, 
+al paragrafo precedente, il popolamento dell’OID 2.5.4.11 organizationalUnitName, 
 e nello specifico:
 
 - nel caso di unità organizzativa, IPAIT‐UO_<codice_UO> dove <codice_UO> 
