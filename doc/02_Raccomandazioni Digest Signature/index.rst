@@ -8,9 +8,9 @@ Raccomandazioni in merito agli algoritmi per XML Canonicalization, Digest and si
 
   01_introduzione.rst
   02_ambito-di-applicazione.rst
-  03_riferimenti-e-sigle.rst
+  03_riferimenti-sigle.rst
   04_XML-canonicalization.rst
   05_digest-SOAP.rst
   06_signature-public-key-SOAP.rst
   07_digest-signature-public-key-REST.rst
-  0_digest-REST.rst
+  08_digest-REST.rst

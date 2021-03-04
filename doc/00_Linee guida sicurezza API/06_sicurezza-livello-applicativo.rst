@@ -23,6 +23,8 @@ nel MODI.
        per assicurare la sicurezza delle transazioni implementate 
        tramite API.
 
+|
+
 .. toctree::
    :maxdepth: 4
 

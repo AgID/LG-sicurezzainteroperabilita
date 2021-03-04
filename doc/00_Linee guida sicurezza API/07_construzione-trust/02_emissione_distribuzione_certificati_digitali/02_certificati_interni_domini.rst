@@ -1,5 +1,3 @@
-.. _certificate-internal:
- 
 Certificati digitali emessi all’interno di domini di interoperabilità specifici
 ==================================================================================
 

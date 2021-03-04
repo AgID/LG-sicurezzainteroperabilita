@@ -33,16 +33,19 @@ erogatori e fruitori.
    * - **[SIC_API_04.a]** 
      - I soggetti destinatari DOVREBBERO utilizzare le modalità di 
        emissione e distribuzione dei certificati digitali indicati ai 
-       paragrafi :ref:`certificate-eidas` e :ref:`certificate-internal`.
+       paragrafi :ref:`Certificati digitali emessi da CAQ eIDAS` e :ref:`Principi per la scelta delle modalità di emissione dei certificati digitali`.
 
    * - **[SIC_API_04.b]** 
      - I soggetti destinatari DEVONO considerare i principi indicati 
-       al paragrafo :ref:`selection-principles` per la determinazione 
+       al paragrafo :ref:`Principi per la scelta delle modalità di emissione dei certificati digitali` per la determinazione 
        delle modalità di emissione e distribuzione dei certificati 
        digitali.
 
+|
+
 .. toctree::
    :maxdepth: 4
-  
-   07_costruzione-trust.rst\01_certificati_digitali_utilizzabili.rst
-   07_costruzione-trust.rst\02_emissione_distribuzione_certificati_digitali.rst
+
+   07_construzione-trust/01_certificati_digitali_utilizzabili.rst
+   07_construzione-trust/02_emissione_distribuzione_certificati_digitali.rst
+
