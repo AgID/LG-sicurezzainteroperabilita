@@ -53,63 +53,63 @@ Termini e definizioni
 
    * -    [AES] 
      -    Advanced Encryption Standard
-  
-  * -     [AEAD]
-    -     Authenticated Encryption with Associated Data
+
+   * -     [AEAD]
+     -     Authenticated Encryption with Associated Data
     
-  * -     [DEA
-    -     Data Encryption Algorithm
+   * -     [DEA]
+     -     Data Encryption Algorithm
 
-  * -     [DHE
-    -     Diffie-Hellman in ephemeral mode
- 
-  * -     [DSA
-    -     Digital Signature Algorithm
+   * -     [DHE]
+     -     Diffie-Hellman in ephemeral mode
+  
+   * -     [DSA]
+     -     Digital Signature Algorithm
 
-  * -     [ECC
-    -     Elliptic Curve Cryptography
+   * -     [ECC]
+     -     Elliptic Curve Cryptography
 
-  * -     [ECDSA
-    -     Elliptic Curve Digital Signature Algorithm
+   * -     [ECDSA]
+     -     Elliptic Curve Digital Signature Algorithm
 
-  * -     [HKDF
-    -     Expand Key Derivation Function
+   * -     [HKDF]
+     -     Expand Key Derivation Function
 
-  * -     [HMAC
-    -     Keyed-hash Message Authentication Code
+   * -     [HMAC]
+     -     Keyed-hash Message Authentication Code
 
-  * -     [IETF
-    -     Internet Engineering Task Force
+   * -     [IETF]
+     -     Internet Engineering Task Force
 
-  * -     [KDF
-    -     Key Derivation Function
+   * -     [KDF]
+     -     Key Derivation Function
 
-  * -     [MD5
-    -     Message Digest Algorithm
+   * -     [MD5]
+     -     Message Digest Algorithm
 
-  * -     [PFS
-    -     Perfect Forward Secrecy
+   * -     [PFS]
+     -     Perfect Forward Secrecy
 
-  * -     [PSK
-    -     Pre-Shared Key
+   * -     [PSK]
+     -     Pre-Shared Key
 
-  * -     [RFC
-    -     Request For Comments
+   * -     [RFC]
+     -     Request For Comments
 
-  * -     [RSA
-    -     Rivest, Shamir e Adleman
+   * -     [RSA]
+     -     Rivest, Shamir e Adleman
 
-  * -     [SHA
-    -     Secure Hash Algorithm 
+   * -     [SHA]
+     -     Secure Hash Algorithm 
 
-  * -     [SSL
-    -     Secure Socket Layer
+   * -     [SSL]
+     -     Secure Socket Layer
 
-  * -     [TDEA
-    -     Triple Data Encryption Algorithm
+   * -     [TDEA]
+     -     Triple Data Encryption Algorithm
 
-  * -     [TLS
-    -     Transport Layer Security
+   * -     [TLS]
+     -     Transport Layer Security
 
-  * -     [3DES
-    -     Triple Data Encryption Standard
+   * -     [3DES]
+     -     Triple Data Encryption Standard

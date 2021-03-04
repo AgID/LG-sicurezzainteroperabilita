@@ -55,11 +55,7 @@ gruppi di algoritmi:
      -    HMAC-SHA256, HMAC-SHA1, HMAC-MD5
 
 Un esempio di cipher suite TLS 1.2 con i relativi algoritmi utilizzati 
-delle varie fasi è la seguente:
-
-.. code-block:: none
-
-    TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+delle varie fasi è la seguente: **TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256**.
 
 Suite di cifratura versione 1.3
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
