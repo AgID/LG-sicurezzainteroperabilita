@@ -1,11 +1,10 @@
 Certificati digitali emessi all’interno di domini di interoperabilità specifici
 ==================================================================================
 
-Nell'ambito di un dominio di interoperabilità i soggetti afferenti in 
-alternativa a quanto indicato al [5.2.1. Certificati digitali emessi da 
-CAQ eIDAS] possono individuare tra essi uno o più soggetti abilitati 
-all’emissione di certificati digitali (di seguito CA del dominio di 
-interoperabilità).
+Nell’ambito di un dominio di interoperabilità i soggetti afferenti, in 
+alternativa a quanto indicato al precedente paragrafo, possono individuare 
+tra essi uno o più soggetti abilitati all’emissione di certificati digitali 
+(di seguito CA del dominio di interoperabilità).
 
 La costituzione del trust è formalizza dalle regole del dominio di 
 interoperabilità in cui sono definite:

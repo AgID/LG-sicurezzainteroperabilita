@@ -1,7 +1,7 @@
 Tecnologia SOAP
 ===============
 
-il Simple Object Access Protocol (SOAP) è un protocollo basato su XML 
+Il Simple Object Access Protocol (SOAP) è un protocollo basato su XML 
 che consente a due applicazioni di comunicare tra loro sul Web. 
 Pubblicato come Working Draft dal W3C, SOAP definisce il formato dei 
 messaggi che due applicazioni possono scambiarsi utilizzando i protocolli 

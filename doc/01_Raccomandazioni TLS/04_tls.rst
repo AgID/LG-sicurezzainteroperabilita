@@ -5,10 +5,10 @@ Versioni TLS disponibili
 ------------------------
 
 Ad oggi sono disponibili le seguenti versioni TLS:
-●	TLS 1.3    (pubblicato nel 2018)    
-●	TLS 1.2    (pubblicato nel 2008)  
-●	TLS 1.1    (pubblicato nel 2006)
-●	TLS 1.0    (pubblicato nel 1999)
+- TLS 1.3    (pubblicato nel 2018)    
+- TLS 1.2    (pubblicato nel 2008)  
+- TLS 1.1    (pubblicato nel 2006)
+- TLS 1.0    (pubblicato nel 1999)
 
 TLS 1.0 e 1.1 sono protocolli obsoleti che non supportano i moderni 
 algoritmi crittografici e risultano vulnerabili ad attacchi [1]_. 

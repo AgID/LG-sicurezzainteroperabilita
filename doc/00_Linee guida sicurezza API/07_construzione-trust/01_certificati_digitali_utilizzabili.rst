@@ -1,7 +1,7 @@
 Certificati digitali utilizzabili
 =================================
 
-Le tecnologie e standard indicate nei precedenti capitoli 3 e 4 trovano 
+Le tecnologie e standard indicate nei precedenti capitoli trovano 
 fondamento sull’utilizzo di certificati digitali. In quanto segue si 
 riportano le raccomandazioni in merito alla tipologia dei certificati 
 digitali e gli object identifier che caratterizzano gli stessi. In 

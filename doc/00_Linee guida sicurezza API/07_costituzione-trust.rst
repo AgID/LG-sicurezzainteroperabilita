@@ -1,9 +1,8 @@
 Costituzione trust tra soggetti interessati
 ===========================================
 
-Le tecnologie da utilizzare a livello applicativo indicate al capitolo 
-4 e, non di meno, quanto indicato nel capitolo 3 in merito alla sicurezza 
-a livello di trasporto, fanno uso della crittografia asimmetrica.
+Le tecnologie da utilizzare indicate in precedenza fanno uso della 
+crittografia asimmetrica.
 
 Nel contesto della crittografia asimmetrica lo standard di riferimento 
 è rappresentato dall’ITU-T X.509 che definisce il formato dei certificati 
