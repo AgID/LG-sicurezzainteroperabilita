@@ -9,15 +9,17 @@ tra essi uno o più soggetti abilitati all’emissione di certificati digitali
 La costituzione del trust è formalizza dalle regole del dominio di 
 interoperabilità in cui sono definite:
 
-- Il dettaglio implementativo di quanto indicato al paragrafo 
-  :ref:`certificate-type`;
+- Il dettaglio implementativo dei processi di quanto indicato ai successivi 
+  paragrafi :ref:`emissione-certificati`, :ref:`gestione-revoca` e 
+  :ref:`gestione-distribuzione`;
 - Le modalità con cui i soggetti afferenti al dominio di interoperabilità 
   (di seguito soggetto richiedente) inoltrano alla CA del dominio di 
   interoperabilità la richiesta di emissione di un certificato;
-- Le verifiche che la CA del dominio di interoperabilità per 
-  l’identificazione del soggetto richiedente;
+- Le verifiche in carico alla CA del dominio di interoperabilità per 
+  dare seguito all’identificazione del soggetto richiedente l'emissione 
+  di un certificato digitale;
 - Le modalità con cui la CA del dominio di interoperabilità inoltra il 
-  certificato firmato al soggetto richiedente e, più in generale, le 
+  certificato emesso al soggetto richiedente e, più in generale, le 
   modalità con cui i certificati digitali emessi sono distribuiti ai 
   soggetti afferenti il dominio di interoperabilità.
 
@@ -34,9 +36,11 @@ interoperabilità in cui sono definite:
    * - **[API_SIC_08]** 
      - I soggetti che rendono disponibili API DEVONO verificare la 
        validità dei certificati digitali emessi da una CA del dominio 
-       di interoperabilità, compreso l’eventuale revoca degli stessi, 
+       di interoperabilità, compresa l’eventuale revoca degli stessi, 
        per ogni invocazione da parte di soggetti delle stesse API per 
        cui è abilitato l’accesso.
+
+.. _`emissione-certificati`:
 
 Gestione dell'emissione dei certificati digitali
 ------------------------------------------------
@@ -49,10 +53,12 @@ dominio di interoperabilità è caratterizzato dai seguenti passi:
    nel dominio di interoperabilità;
 2. Il soggetto richiedente inoltra nei modi definiti nelle regole del 
    dominio di interoperabilità alla CA del dominio di interoperabilità 
-   la chiave pubblica generata;
+   la richiesta di certificazione CSR, in formato PKCS#10;
 3. La CA del dominio di interoperabilità identifica il soggetto richiedente 
-   e, in caso di identificazione positiva, provvede a firmare la chiave 
-   pubblica generata dal soggetto richiedente.
+   e, in caso di identificazione positiva, provvede a generare il certificato 
+   e a fornirlo al soggetto richiedente.
+
+.. _`gestione-revoca`:
 
 Gestione della revoca dei certificati digitali
 ----------------------------------------------
@@ -61,6 +67,8 @@ La CA del dominio di interoperabilità assicura la disponibilità dei
 necessari servizi per permettere, per ogni invocazione alle proprie 
 API, ai soggetti afferenti ad un dominio di interoperabilità di 
 verificare l’eventuale revoca di certificati digitali emessi.
+
+.. _`gestione-distribuzione`:
 
 Gestione della distribuzione dei certificati digitali della CA
 --------------------------------------------------------------
