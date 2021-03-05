@@ -11,4 +11,3 @@ delle pubbliche amministrazioni.
 .. forum_italia::
     :topic_id: 22275
     :scope: document
-  

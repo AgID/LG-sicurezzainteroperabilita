@@ -46,4 +46,3 @@ documento.
 .. forum_italia::
    :topic_id: 22278
    :scope: document
- 
