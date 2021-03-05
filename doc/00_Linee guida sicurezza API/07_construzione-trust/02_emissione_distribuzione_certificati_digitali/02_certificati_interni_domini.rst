@@ -69,3 +69,9 @@ La CA del dominio di interoperabilità, nelle modalità indicate nelle
 regole del dominio di interoperabilità, inoltra al soggetto richiedente 
 il certificato firmato e/o assicura la distribuzione dei certificati 
 digitali emessi ai soggetti afferenti al dominio di interoperabilità.
+
+   
+
+.. forum_italia::
+  :topic_id: 22266
+  :scope: document

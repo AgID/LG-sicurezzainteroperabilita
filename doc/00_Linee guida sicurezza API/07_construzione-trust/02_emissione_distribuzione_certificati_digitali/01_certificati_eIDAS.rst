@@ -27,3 +27,9 @@ Regolamento eIDAS.
        da una CAQ, compreso l’eventuale revoca degli stessi, per ogni 
        invocazione da parte di soggetti delle stesse API per cui è 
        abilitato l’accesso.
+
+   
+
+.. forum_italia::
+  :topic_id: 22265
+  :scope: document

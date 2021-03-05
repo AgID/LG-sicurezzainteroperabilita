@@ -60,3 +60,9 @@ si raccomanda di verificare che non sia vulnerabile a Heartbleed.
    Cf.
    https://tools.ietf.org/html/rfc6520
 
+
+   
+
+.. forum_italia::
+  :topic_id: 22273
+  :scope: document

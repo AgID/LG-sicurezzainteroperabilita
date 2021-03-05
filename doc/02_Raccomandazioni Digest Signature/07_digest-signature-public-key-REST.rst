@@ -33,3 +33,9 @@ Digest and signature public key REST
 
    * -    ES512
      -    ECDSA using P-521 curve and SHA-512 hash algorithm
+
+   
+
+.. forum_italia::
+  :topic_id: 22283
+  :scope: document

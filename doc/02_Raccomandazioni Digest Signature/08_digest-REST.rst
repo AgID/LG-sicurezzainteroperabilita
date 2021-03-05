@@ -15,3 +15,9 @@ Digest REST
 
    * -    S512
      -    SHA-512 hash algorithm
+
+   
+
+.. forum_italia::
+  :topic_id: 22284
+  :scope: document

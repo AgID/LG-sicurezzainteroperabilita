@@ -127,3 +127,9 @@ La verifica è realizzata attraverso i seguenti passi:
 .. [1]
    Cf.
    https://www.agid.gov.it/sites/default/files/repository_files/regole_tecniche_e_raccomandazioni_v1.1_0.pdf
+
+   
+
+.. forum_italia::
+   :topic_id: 22263
+   :scope: document

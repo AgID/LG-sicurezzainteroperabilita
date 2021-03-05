@@ -113,3 +113,9 @@ Termini e definizioni
 
    * -     [3DES]
      -     Triple Data Encryption Standard
+
+   
+
+.. forum_italia::
+  :topic_id: 22270
+  :scope: document

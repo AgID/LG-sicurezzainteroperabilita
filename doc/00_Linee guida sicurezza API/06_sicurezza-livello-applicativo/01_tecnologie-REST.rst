@@ -176,3 +176,8 @@ il Client Credentials.
 .. [7]
    Cf.
    https://tools.ietf.org/html/rfc6749
+
+
+.. forum_italia::
+   :topic_id: 22260
+   :scope: document

@@ -48,3 +48,8 @@ erogatori e fruitori.
    07_construzione-trust/01_certificati_digitali_utilizzabili.rst
    07_construzione-trust/02_emissione_distribuzione_certificati_digitali.rst
 
+   
+
+.. forum_italia::
+  :topic_id: 22262
+  :scope: document

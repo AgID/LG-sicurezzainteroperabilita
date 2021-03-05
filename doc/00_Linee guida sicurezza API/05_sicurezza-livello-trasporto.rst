@@ -35,3 +35,9 @@ verranno emanati specifici avvisi di sicurezza.
      - I soggetti destinatari DEVONO utilizzare la versione TLS e le 
        cipher suite indicate nell’allegato “Raccomandazioni AgID in 
        merito allo standard Transport Layer Security (TLS)”.
+
+
+.. forum_italia::
+       :topic_id: 22258
+       :scope: document
+    

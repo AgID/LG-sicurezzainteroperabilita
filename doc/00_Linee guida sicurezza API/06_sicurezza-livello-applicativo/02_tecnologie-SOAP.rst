@@ -146,3 +146,8 @@ of Structured Information Standards (OASIS) tra cui segnaliamo:
 .. [7]
    Cf.
    https://www.oasis-open.org/committees/download.php/16768/wss-v1.1-spec-os-SAMLTokenProfile.pdf
+
+
+.. forum_italia::
+   :topic_id: 22261
+   :scope: document

@@ -16,3 +16,9 @@ XML Canonicalization
 
    * -    Exclusive XML Canonicalization 1.0
      -    Exclusive XML Canonicalization 1.0
+
+   
+
+.. forum_italia::
+  :topic_id: 22279
+  :scope: document

@@ -24,3 +24,9 @@ e integrazioni.
   02_emissione_distribuzione_certificati_digitali/01_certificati_eIDAS.rst
   02_emissione_distribuzione_certificati_digitali/02_certificati_interni_domini.rst
   02_emissione_distribuzione_certificati_digitali/03_scelta_modalita_emissione_certificati.rst
+
+   
+
+.. forum_italia::
+  :topic_id: 22264
+  :scope: document

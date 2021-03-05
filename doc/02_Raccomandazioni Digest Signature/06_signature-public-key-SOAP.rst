@@ -27,3 +27,9 @@ Signature public key SOAP
 
    * -    ECDSA-SHA-512
      -    \http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha512
+
+   
+
+.. forum_italia::
+  :topic_id: 22282
+  :scope: document

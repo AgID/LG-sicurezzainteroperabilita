@@ -72,3 +72,9 @@ del protocollo TLS soggetta a vulnerabilità note.
 .. [2]
    Cf.
    https://tools.ietf.org/html/rfc5246
+
+   
+
+.. forum_italia::
+  :topic_id: 22274
+  :scope: document

@@ -132,3 +132,9 @@ Attualmente sono solo cinque le cipher disponibili per TLS 1.3:
 .. [6]
    Cf.
    https://blog.mozilla.org/security/2018/10/15/removing-old-versions-of-tls/
+
+   
+
+.. forum_italia::
+  :topic_id: 22271
+  :scope: document

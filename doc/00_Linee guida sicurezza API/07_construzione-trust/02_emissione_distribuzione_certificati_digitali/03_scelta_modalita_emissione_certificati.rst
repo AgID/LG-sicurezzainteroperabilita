@@ -30,3 +30,9 @@ indicati di seguito.
        dell’interoperabilità transfrontaliera con altri stati delle CE, 
        si deve utilizzare la modalità indicata al paragrafo :ref:`Certificati digitali emessi da CAQ eIDAS`
        per assicurare l’accettazione dei certificati digitali emessi.
+
+   
+
+.. forum_italia::
+  :topic_id: 22267
+  :scope: document

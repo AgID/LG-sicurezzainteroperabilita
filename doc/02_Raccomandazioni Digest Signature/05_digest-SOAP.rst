@@ -24,3 +24,9 @@ Digest SOAP
 
    * -    HMAC-SHA-512  
      -    \http://www.w3.org/2001/04/xmldsig-more#hmac-sha512
+
+   
+
+.. forum_italia::
+  :topic_id: 22280
+  :scope: document

@@ -40,3 +40,10 @@ documento.
           NOTA – Il D. Lgs. 82/2010 è noto anche con l’abbreviazione "CAD"
 
 [TODO]
+
+   
+
+.. forum_italia::
+   :topic_id: 22278
+   :scope: document
+ 
