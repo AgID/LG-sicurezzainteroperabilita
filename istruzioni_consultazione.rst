@@ -31,7 +31,7 @@ sistemi informatici tramite API.
 Obiettivo della consultazione
 =============================
 
-Le Linee Guida Tecnologie e standard per assicurare la sicurezza dell'
+Le Linee Guida Tecnologie e standard per la sicurezza dell'
 interoperabilità tramite API dei sistemi informatici sono redatte per 
 l’attuazione del decreto legislativo 7 marzo 2005, n. 82 (Codice dell'
 Amministrazione Digitale) ai sensi dell’`articolo 14-bis <https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82!vig=2021-01-26~art14bis>`__ 

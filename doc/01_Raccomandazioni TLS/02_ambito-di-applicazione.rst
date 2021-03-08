@@ -1,7 +1,7 @@
 Ambito di applicazione
 ======================
 
-Il presente Allegato delle Linee Guida Tecnologie e standard per assicurare 
+Il presente Allegato delle Linee Guida Tecnologie e standard per 
 la sicurezza dell'interoperabilità tramite API dei sistemi informatici
 individuano raccomandazioni in merito ai protocolli di sicurezza e alle 
 Cipher Suite rappresentanti lo stato dell'arte al momento della sua stesura.

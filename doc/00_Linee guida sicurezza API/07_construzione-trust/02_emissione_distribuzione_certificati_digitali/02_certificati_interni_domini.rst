@@ -68,6 +68,11 @@ necessari servizi per permettere, per ogni invocazione alle proprie
 API, ai soggetti afferenti ad un dominio di interoperabilità di 
 verificare l’eventuale revoca di certificati digitali emessi.
 
+A tal fine si DOVREBBE utilzizare il Online Certificate 
+Status Protocol (OCSP) [1]_ o la Certificate Revocation List (CRL) 
+[2]_.
+
+
 .. _`gestione-distribuzione`:
 
 Gestione della distribuzione dei certificati digitali della CA
@@ -78,7 +83,15 @@ regole del dominio di interoperabilità, inoltra al soggetto richiedente
 il certificato firmato e/o assicura la distribuzione dei certificati 
 digitali emessi ai soggetti afferenti al dominio di interoperabilità.
 
-   
+
+.. [1]
+   Cf.
+   https://tools.ietf.org/html/rfc6960
+
+.. [2]
+   Cf.
+   https://tools.ietf.org/html/rfc5280
+
 
 .. forum_italia::
   :topic_id: 22266
