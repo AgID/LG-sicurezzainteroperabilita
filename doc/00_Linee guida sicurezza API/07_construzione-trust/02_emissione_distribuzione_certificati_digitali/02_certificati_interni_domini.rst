@@ -68,7 +68,7 @@ necessari servizi per permettere, per ogni invocazione alle proprie
 API, ai soggetti afferenti ad un dominio di interoperabilità di 
 verificare l’eventuale revoca di certificati digitali emessi.
 
-A tal fine si DOVREBBE utilzizare il Online Certificate 
+A tal fine si DOVREBBE utilizzare la Online Certificate 
 Status Protocol (OCSP) [1]_ o la Certificate Revocation List (CRL) 
 [2]_.
 
