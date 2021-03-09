@@ -84,8 +84,6 @@ in un unico algoritmo di tipo AEAD (Authenticated Encryption with
 Additional Data). Ciò ha semplificato le possibili combinazioni di 
 cipher suite.  
 
-Attualmente sono solo cinque le cipher disponibili per TLS 1.3:
-
 Attualmente sono solo cinque le cipher disponibili per TLS 1.3:  
 
 - TLS_AES_256_GCM_SHA384
