@@ -32,13 +32,14 @@ erogatori e fruitori.
    * - **[SIC_API_04.a]** 
      - I soggetti destinatari DOVREBBERO utilizzare le modalità di 
        emissione e distribuzione dei certificati digitali indicati ai 
-       paragrafi :ref:`Certificati digitali emessi da CAQ eIDAS` e :ref:`Principi per la scelta delle modalità di emissione dei certificati digitali`.
+       paragrafi :ref:`Certificati digitali emessi da CAQ eIDAS` e 
+       :ref:`Certificati digitali emessi all’interno di domini di interoperabilità specifici`.
 
    * - **[SIC_API_04.b]** 
      - I soggetti destinatari DEVONO considerare i principi indicati 
-       al paragrafo :ref:`Principi per la scelta delle modalità di emissione dei certificati digitali` per la determinazione 
-       delle modalità di emissione e distribuzione dei certificati 
-       digitali.
+       al paragrafo :ref:`Principi per la scelta delle modalità di emissione dei certificati digitali` 
+       per la determinazione delle modalità di emissione e distribuzione 
+       dei certificati digitali.
 
 |
 
