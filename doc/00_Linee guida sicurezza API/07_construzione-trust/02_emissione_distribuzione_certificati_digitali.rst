@@ -17,9 +17,8 @@ il Decreto legislativo 30 giugno 2003 n. 196 e successive modificazioni
 e integrazioni.
 
 
-.. toctree::
-  :numbered:
-  :maxdepth: 4
+.. toctree::  
+  :maxdepth: 3
   
   02_emissione_distribuzione_certificati_digitali/01_certificati_eIDAS.rst
   02_emissione_distribuzione_certificati_digitali/02_certificati_interni_domini.rst
