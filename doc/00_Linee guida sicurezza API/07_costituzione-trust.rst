@@ -24,7 +24,7 @@ erogatori e fruitori.
    :widths: 15 40
    :header-rows: 0
 
-   * - **[API_SIC_03]** 
+   * - **[SIC_API_03]** 
      - I soggetti destinatari DOVREBBERO utilizzare le tipologie dei 
        certificati digitali e, per essi, assicurare il popolamento degli 
        object identifier indicati al paragrafo :ref:`certificate-type`.
