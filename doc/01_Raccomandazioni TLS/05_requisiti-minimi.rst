@@ -24,7 +24,7 @@ Suite di cifratura raccomandate
 -------------------------------
 
 Per agevolare la configurazione del protocollo TLS, Mozilla fornisce un 
-tool[1] che genera configurazioni sicure dei suoi principali software. 
+tool [1]_ che genera configurazioni sicure dei suoi principali software. 
 
 DOVREBBE essere utilizzato nella configurazioni "Modern" (rivolte ai client 
 con TLS 1.3 e che non necessitano di retro-compatibilità) e "Intermediate" 
