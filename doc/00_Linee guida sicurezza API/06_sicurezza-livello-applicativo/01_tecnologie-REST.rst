@@ -145,8 +145,11 @@ OAuth 2.0 è definito dall’Internet Engineering Task Force nell’RFC 6749 [7]
 a cui si rimanda per approfondimenti.
 
 Visto che il contesto di interesse è machine-to-machine, dei suddetti 
-Grant Type  sono applicabili  il Resource Owner Password Credentials e 
-il Client Credentials.
+Grant Type  sono applicabili il Resource Owner Password Credentials e 
+il Client Credentials. Si precisa che relativamente al Grant Type Resource 
+Owner Password Credentials l’utilizzo dello stesso comporta la cessione 
+a terzi delle credenziali, quindi va valutato attentamente e motivato in 
+relazione al livello di trust del client.
 
 
 .. [1]
