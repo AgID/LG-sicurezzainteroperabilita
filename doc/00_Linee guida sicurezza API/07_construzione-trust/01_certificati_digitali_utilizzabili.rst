@@ -58,7 +58,7 @@ digitali emessi per soggetti giuridici (legal person).
 
 Nello specifico le indicate Linee guida, coerentemente a quanto disposto 
 dalla norma ETSI EN‐319‐412‐1, prevedono che l’OID 2.5.4.97 
-organizationIdentifier sia popolato con il codice fiscale della persona 
+organizationIdentifier DEVE essere popolato con il codice fiscale della persona 
 giuridica a cui il certificato X.509 è associato nel rispetto della 
 seguente sintassi:
 
@@ -75,11 +75,11 @@ della generazione dello stesso certificato assicura, oltre a quanto indicato
 al paragrafo precedente, il popolamento dell’OID 2.5.4.11 
 organizationalUnitName, e nello specifico:
 
-- nel caso di unità organizzativa, IPAIT‐UO_<codice_UO> dove <codice_UO> 
-  è il codice IPA dell’unità organizzativa così come risulta dall’IPA;
+- nel caso di unità organizzativa, IPAIT‐UO_<cod_uni_ou> dove <cod_uni_ou> 
+  è il codice univoco dell'unità organizzativa così come risulta dall’IPA;
 
-- nel caso di area organizzativa omogenea, IPAIT‐AOO_<codice_AOO> dove 
-  <codice_AOO> è il codice IPA dell’area organizzativa omogenea così 
+- nel caso di area organizzativa omogenea, IPAIT‐AOO_<cod_uni_aoo> dove 
+  <cod_uni_aoo> è codice univoco dell’area organizzativa omogenea così 
   come risulta dall’IPA.
 
 Verifica associazione di certificato X.509 ad una pubblica amministrazione
@@ -107,10 +107,10 @@ La verifica è realizzata attraverso i seguenti passi:
        fiscale indicato nell’OID 2.5.4.97 organizationIdentifier e 
        recupera il codice IPA dell’amministrazione;
 
-    2. la presenza nell’elenco delle unità organizzative dell’IPA della 
-       coppia codice IPA dell'unità organizzativa indicato nell’OID 
-       2.5.4.11 organizationalUnitName e codice IPA dell’amministrazione 
-       recuperato al passo precedente;
+    2. la presenza nell’elenco delle unità organizzative dell’IPA del 
+       codice univoco dell'unità organizzativa indicato nell’OID 2.5.4.11 
+       organizationalUnitName riferito all'amministrazione verificata 
+       al precedente passo 1;
 
 - nel caso di certificato X.509 associato a una area organizzativa 
   omogenea di una specifica pubblica amministrazione verifica: 
@@ -119,11 +119,10 @@ La verifica è realizzata attraverso i seguenti passi:
        fiscale indicato nell’OID 2.5.4.97 organizationIdentifier e recupera 
        il codice IPA dell’amministrazione;
 
-    2. la presenza nell’elenco delle aree organizzative omogenee dell’IPA 
-       della coppia codice IPA dell'area organizzativa omogenea indicato 
-       nell’OID 2.5.4.11 organizationalUnitName e codice IPA 
-       dell’amministrazione recuperato al passo precedente.
-    
+    2. la presenza nell’elenco delle unità organizzative dell’IPA del 
+       codice univoco dell'area organizzativa omogenea indicato nell’OID
+       2.5.4.11 organizationalUnitName riferito all'amministrazione 
+       verificata al precedente passo 1;
 
 .. [1]
    Cf.
