@@ -75,11 +75,11 @@ della generazione dello stesso certificato assicura, oltre a quanto indicato
 al paragrafo precedente, il popolamento dell’OID 2.5.4.11 
 organizationalUnitName, e nello specifico:
 
-- nel caso di unità organizzativa, IPAIT‐UO_<cod_uni_ou> dove <cod_uni_ou> 
+- nel caso di unità organizzativa, IPAIT‐UO_<Codice_uni_uo> dove <Codice_uni_uo> 
   è il codice univoco dell'unità organizzativa così come risulta dall’IPA;
 
-- nel caso di area organizzativa omogenea, IPAIT‐AOO_<cod_uni_aoo> dove 
-  <cod_uni_aoo> è codice univoco dell’area organizzativa omogenea così 
+- nel caso di area organizzativa omogenea, IPAIT‐AOO_<Codice_uni_aoo> dove 
+  <Codice_uni_aoo> è codice univoco dell’area organizzativa omogenea così 
   come risulta dall’IPA.
 
 Verifica associazione di certificato X.509 ad una pubblica amministrazione
