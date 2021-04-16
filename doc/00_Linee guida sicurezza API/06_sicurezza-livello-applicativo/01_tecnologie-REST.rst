@@ -151,7 +151,6 @@ Owner Password Credentials l’utilizzo dello stesso comporta la cessione
 a terzi delle credenziali, quindi va valutato attentamente e motivato in 
 relazione al livello di trust del client.
 
-
 .. [1]
    Cf.
    https://martinfowler.com/articles/richardsonMaturityModel.html
