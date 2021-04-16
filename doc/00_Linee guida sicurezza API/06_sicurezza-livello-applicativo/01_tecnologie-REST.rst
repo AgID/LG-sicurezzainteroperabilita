@@ -115,8 +115,8 @@ Le Linee Guida include, quale strumento operativo, l’allegato
 Digest and signature public key SOAP e Digest and signature public key 
 REST” in cui sono tabellati anche gli algoritmi crittografici individuati 
 in JWA. In merito al citato all’allegato si ricorda che, cosi come 
-indicato al paragrafo 2.2., l’aggiornamento è assicurato attraverso 
-Circolari emanate dall’AgID.
+indicato al paragrafo :ref:`structure`, l’aggiornamento è assicurato 
+attraverso Circolari emanate dall’AgID.
 
 OAuth 2.0
 ---------
@@ -145,8 +145,11 @@ OAuth 2.0 è definito dall’Internet Engineering Task Force nell’RFC 6749 [7]
 a cui si rimanda per approfondimenti.
 
 Visto che il contesto di interesse è machine-to-machine, dei suddetti 
-Grant Type è applicabile il Client Credentials.
-
+Grant Type  sono applicabili il Resource Owner Password Credentials e 
+il Client Credentials. Si precisa che relativamente al Grant Type Resource 
+Owner Password Credentials l’utilizzo dello stesso comporta la cessione 
+a terzi delle credenziali, quindi va valutato attentamente e motivato in 
+relazione al livello di trust del client.
 
 .. [1]
    Cf.
@@ -175,3 +178,8 @@ Grant Type è applicabile il Client Credentials.
 .. [7]
    Cf.
    https://tools.ietf.org/html/rfc6749
+
+
+.. forum_italia::
+   :topic_id: 22260
+   :scope: document

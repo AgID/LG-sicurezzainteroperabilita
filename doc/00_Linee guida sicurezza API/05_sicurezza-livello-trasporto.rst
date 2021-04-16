@@ -20,7 +20,7 @@ Transport Layer Security (TLS)”.
 Data la continua evoluzione tecnologica e la possibile scoperta di nuove 
 vulnerabilità, l’allegato “Raccomandazioni in merito allo standard 
 Transport Layer Security (TLS)” verrà aggiornato periodicamente nei 
-modi indicati al paragrafo 2.2. Struttura. 
+modi indicati al paragrafo :ref:`structure`. 
 
 In caso di evidenza di vulnerabilità di nuova scoperta che richiedano 
 un intervento immediato in merito alle indicazioni fornite nell’allegato 
@@ -35,3 +35,8 @@ verranno emanati specifici avvisi di sicurezza.
      - I soggetti destinatari DEVONO utilizzare la versione TLS e le 
        cipher suite indicate nell’allegato “Raccomandazioni AgID in 
        merito allo standard Transport Layer Security (TLS)”.
+
+
+.. forum_italia::
+       :topic_id: 22258
+       :scope: document

@@ -35,3 +35,8 @@ sistemi informatici tramite API.
 .. [2]
    Cf.
    http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82!vig=2021-03-02~art2
+
+
+.. forum_italia::
+   :topic_id: 22255
+   :scope: document

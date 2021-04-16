@@ -1,5 +1,5 @@
 Modalità di emissione e distribuzione dei certificati digitali
-==============================================================
+===============================================================
 
 La costituzione del trust tra i soggetti erogatori e fruitori delle API, 
 entro cui le parti riconoscono i certificati digitali, è il presupposto 
@@ -17,10 +17,15 @@ il Decreto legislativo 30 giugno 2003 n. 196 e successive modificazioni
 e integrazioni.
 
 
-.. toctree::
-  :numbered:
+.. toctree::  
   :maxdepth: 3
   
-  02_emissione_distribuzione_certificati_digitali\01_certificati_eIDAS.rst
-  02_emissione_distribuzione_certificati_digitali\02_certificati_interni_domini.rst
-  02_emissione_distribuzione_certificati_digitali\03_scelta_modalita_emissione_certificati.rst
+  02_emissione_distribuzione_certificati_digitali/01_certificati_eIDAS.rst
+  02_emissione_distribuzione_certificati_digitali/02_certificati_interni_domini.rst
+  02_emissione_distribuzione_certificati_digitali/03_scelta_modalita_emissione_certificati.rst
+
+   
+
+.. forum_italia::
+  :topic_id: 22264
+  :scope: document

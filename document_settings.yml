@@ -1,8 +1,8 @@
 document:
-  name: Linee Guida Tecnologie e standard per assicurare la sicurezza dell'interoperabilità tramite API dei sistemi informatici
+  name: Linee Guida Tecnologie e standard sicurezza API
 
   description:
-      Linee Guida Tecnologie e standard per assicurare la sicurezza 
+      Linee Guida Tecnologie e standard per la sicurezza 
       dell'interoperabilità tramite API dei sistemi informatici
   tags:
     - sicurezza

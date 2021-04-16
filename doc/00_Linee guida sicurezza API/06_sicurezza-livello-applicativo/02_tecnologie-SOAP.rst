@@ -1,7 +1,7 @@
 Tecnologia SOAP
 ===============
 
-il Simple Object Access Protocol (SOAP) è un protocollo basato su XML 
+Il Simple Object Access Protocol (SOAP) è un protocollo basato su XML 
 che consente a due applicazioni di comunicare tra loro sul Web. 
 Pubblicato come Working Draft dal W3C, SOAP definisce il formato dei 
 messaggi che due applicazioni possono scambiarsi utilizzando i protocolli 
@@ -48,8 +48,8 @@ Le Linee Guida include, quale strumento operativo, l’allegato
 Digest and signature public key SOAP e Digest and signature public key 
 REST” in cui sono tabellati anche gli algoritmi di XML-canonicalization. 
 In merito al citato all’allegato si ricorda che, cosi come indicato al 
-paragrafo 2.2., l’aggiornamento è assicurato attraverso Circolari emanate 
-dall’AgID.
+paragrafo :ref:`structure`, l’aggiornamento è assicurato attraverso 
+Circolari emanate dall’AgID.
 
 XML-signature
 -------------
@@ -71,8 +71,8 @@ La Linea Guida include, quale strumento operativo, l’allegato
 Digest and signature public key SOAP e Digest and signature public key 
 REST” in cui sono tabellati anche gli algoritmi di XML-signature. 
 In merito al citato all’allegato si ricorda che, cosi come indicato al 
-paragrafo 2.2., l’aggiornamento è assicurato attraverso Circolari emanate 
-dall’AgID.
+paragrafo :ref:`structure`, l’aggiornamento è assicurato attraverso 
+Circolari emanate dall’AgID.
 
 XML-encryption
 --------------
@@ -91,8 +91,8 @@ La Linea Guida include, quale strumento operativo, l’allegato
 Digest and signature public key SOAP e Digest and signature public key 
 REST” in cui sono tabellati anche gli algoritmi di XML-encryption. 
 In merito al citato all’allegato si ricorda che, cosi come indicato al 
-paragrafo 2.2., l’aggiornamento è assicurato attraverso Circolari emanate 
-dall’AgID.
+paragrafo :ref:`structure`, l’aggiornamento è assicurato attraverso 
+Circolari emanate dall’AgID.
 
 WS-security
 -----------
@@ -146,3 +146,8 @@ of Structured Information Standards (OASIS) tra cui segnaliamo:
 .. [7]
    Cf.
    https://www.oasis-open.org/committees/download.php/16768/wss-v1.1-spec-os-SAMLTokenProfile.pdf
+
+
+.. forum_italia::
+   :topic_id: 22261
+   :scope: document

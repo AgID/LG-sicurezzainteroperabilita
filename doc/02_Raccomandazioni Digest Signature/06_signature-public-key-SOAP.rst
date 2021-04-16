@@ -1,0 +1,35 @@
+Signature public key SOAP
+=========================
+
+.. list-table:: 
+   :header-rows: 1
+
+   * -    Sigla
+     -    URI
+
+   * -    DSA-SHA-256
+     -    \http://www.w3.org/2009/xmldsig11#dsa-sha256 
+
+   * -    RSA-SHA-256
+     -    \http://www.w3.org/2001/04/xmldsig-more#rsa-sha256 
+
+   * -    RSA-SHA-384
+     -    \http://www.w3.org/2001/04/xmldsig-more#rsa-sha384 
+
+   * -    RSA-SHA-512
+     -    \http://www.w3.org/2001/04/xmldsig-more#rsa-sha512 
+
+   * -    ECDSA-SHA-256
+     -    \http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256 
+
+   * -    ECDSA-SHA-384
+     -    \http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha384 
+
+   * -    ECDSA-SHA-512
+     -    \http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha512
+
+   
+
+.. forum_italia::
+  :topic_id: 22282
+  :scope: document

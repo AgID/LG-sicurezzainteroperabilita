@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # -- PROJECT Variables ----------------------------------------------------
-settings_project_name = "Linee Guida Tecnologie e standard per assicurare la sicurezza dell'interoperabilità tramite API dei sistemi informatici"
+settings_project_name = "Linee Guida Tecnologie e standard sicurezza API"
 settings_copyright_copyleft = "Agenzia per l'Italia Digitale"
 settings_editor_name = "Agenzia per l'Italia Digitale"
 settings_doc_version = "Bozza in consultazione"

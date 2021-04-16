@@ -24,25 +24,6 @@ seguito.
    lettore può scegliere di applicare o meno senza alcun tipo di
    implicazione o restrizione la specifica.
 
-.. _structure:
-
-Struttura
----------
-
-Le Linee Guida includono i seguenti Allegati:
-
-- Raccomandazioni in merito allo standard Transport Layer Security 
-  (TLS);
-- Raccomandazioni in merito agli algoritmi per XML Canonicalization, 
-  Digest and signature public key SOAP e Digest and signature public 
-  key REST.
-
-L'aggiornamento degli allegati, considerati i temi trattati negli stessi 
-soggetti alla continua evoluzione tecnologica e alla possibile scoperta 
-di nuove vulnerabilità, è realizzato attraverso Circolari emanate 
-dall’AgID al fine di assicurarne il tempestivo allineamento alle 
-evidenze maturate.
-
 Riferimenti Normativi
 ---------------------
 
@@ -70,13 +51,71 @@ Termini e definizioni
    * -    [AgID]
      -    Agenzia per l’Italia Digitale
 
-   * -    [API]
-     -    Application Programming Interfac
+   * -    [AES] 
+     -    Advanced Encryption Standard
 
-[TODO]
+   * -     [AEAD]
+     -     Authenticated Encryption with Associated Data
+    
+   * -     [DEA]
+     -     Data Encryption Algorithm
 
+   * -     [DHE]
+     -     Diffie-Hellman in ephemeral mode
+  
+   * -     [DSA]
+     -     Digital Signature Algorithm
 
+   * -     [ECC]
+     -     Elliptic Curve Cryptography
+
+   * -     [ECDSA]
+     -     Elliptic Curve Digital Signature Algorithm
+
+   * -     [HKDF]
+     -     Expand Key Derivation Function
+
+   * -     [HMAC]
+     -     Keyed-hash Message Authentication Code
+
+   * -     [IETF]
+     -     Internet Engineering Task Force
+
+   * -     [KDF]
+     -     Key Derivation Function
+
+   * -     [MD5]
+     -     Message Digest Algorithm
+
+   * -     [PFS]
+     -     Perfect Forward Secrecy
+
+   * -     [PSK]
+     -     Pre-Shared Key
+
+   * -     [RFC]
+     -     Request For Comments
+
+   * -     [RSA]
+     -     Rivest, Shamir e Adleman
+
+   * -     [SHA]
+     -     Secure Hash Algorithm 
+
+   * -     [SSL]
+     -     Secure Socket Layer
+
+   * -     [TDEA]
+     -     Triple Data Encryption Algorithm
+
+   * -     [TLS]
+     -     Transport Layer Security
+
+   * -     [3DES]
+     -     Triple Data Encryption Standard
+
+   
 
 .. forum_italia::
-   :topic_id: 22256
-   :scope: document
+  :topic_id: 22270
+  :scope: document

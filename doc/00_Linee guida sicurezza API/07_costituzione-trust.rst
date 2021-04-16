@@ -1,9 +1,8 @@
 Costituzione trust tra soggetti interessati
 ===========================================
 
-Le tecnologie da utilizzare a livello applicativo indicate al capitolo 
-4 e, non di meno, quanto indicato nel capitolo 3 in merito alla sicurezza 
-a livello di trasporto, fanno uso della crittografia asimmetrica.
+Le tecnologie da utilizzare indicate in precedenza fanno uso della 
+crittografia asimmetrica.
 
 Nel contesto della crittografia asimmetrica lo standard di riferimento 
 è rappresentato dall’ITU-T X.509 che definisce il formato dei certificati 
@@ -25,7 +24,7 @@ erogatori e fruitori.
    :widths: 15 40
    :header-rows: 0
 
-   * - **[API_SIC_03]** 
+   * - **[SIC_API_03]** 
      - I soggetti destinatari DOVREBBERO utilizzare le tipologie dei 
        certificati digitali e, per essi, assicurare il popolamento degli 
        object identifier indicati al paragrafo 5.1 :ref:`#Tipologia certificati digitali`.
@@ -33,17 +32,25 @@ erogatori e fruitori.
    * - **[SIC_API_04.a]** 
      - I soggetti destinatari DOVREBBERO utilizzare le modalità di 
        emissione e distribuzione dei certificati digitali indicati ai 
-       paragrafi 5.2.1 e 5.2.2.
+       paragrafi :ref:`Certificati digitali emessi da CAQ eIDAS` e 
+       :ref:`Certificati digitali emessi all’interno di domini di interoperabilità specifici`.
 
    * - **[SIC_API_04.b]** 
      - I soggetti destinatari DEVONO considerare i principi indicati 
-       al paragrafo 5.2.3 per la determinazione delle modalità di 
-       emissione e distribuzione dei certificati digitali.
+       al paragrafo :ref:`Principi per la scelta delle modalità di emissione dei certificati digitali` 
+       per la determinazione delle modalità di emissione e distribuzione 
+       dei certificati digitali.
+
+|
 
 .. toctree::
-  :numbered:
-  :maxdepth: 3
-  :caption: Indice dei contenuti
+   :maxdepth: 4
 
-  01_certificati_digitali _utilizzabili.rst
-  02_emissione_distribuzione_certificati_digitali.rst
+   07_construzione-trust/01_certificati_digitali_utilizzabili.rst
+   07_construzione-trust/02_emissione_distribuzione_certificati_digitali.rst
+
+   
+
+.. forum_italia::
+  :topic_id: 22262
+  :scope: document

@@ -1,7 +1,7 @@
 Certificati digitali utilizzabili
 =================================
 
-Le tecnologie e standard indicate nei precedenti capitoli 3 e 4 trovano 
+Le tecnologie e standard indicate nei precedenti capitoli trovano 
 fondamento sull’utilizzo di certificati digitali. In quanto segue si 
 riportano le raccomandazioni in merito alla tipologia dei certificati 
 digitali e gli object identifier che caratterizzano gli stessi. In 
@@ -10,12 +10,14 @@ guida “Regole Tecniche e Raccomandazioni afferenti la generazione di
 certificati elettronici qualificati, firme e sigilli elettronici 
 qualificati e validazioni temporali elettroniche qualificate” [1]_.
 
+.. _certificate-type:
   
 Tipologia certificati digitali
 ------------------------------
 
-La tipologia di certificati digitali da utilizzare è determinata dal 
-livello entro cui gli stessi sono utilizzati, nel dettaglio:
+La tipologia di certificati digitali (certificati qualificati o non 
+qualificati) da utilizzare è determinata dal livello entro cui gli 
+stessi sono utilizzati, nel dettaglio:
 
 - per l’applicazione della sicurezza di canale si utilizzano *Website 
   Authentication Certificates*, detti anche certificati SSL/TLS, che 
@@ -55,10 +57,10 @@ e validazioni temporali elettroniche qualificate”  in merito ai certificati
 digitali emessi per soggetti giuridici (legal person). 
 
 Nello specifico le indicate Linee guida, coerentemente a quanto disposto 
-dal Regolamento eIDAS e nel dettaglio dalla norma ETSI EN‐319‐412‐1, 
-prevedono che l’OID 2.5.4.97 organizationIdentifier sia popolato con 
-il codice fiscale della persona giuridica a cui il certificato X.509 è 
-associato nel rispetto della seguente sintassi:
+dalla norma ETSI EN‐319‐412‐1, prevedono che l’OID 2.5.4.97 
+organizationIdentifier DEVE essere popolato con il codice fiscale della persona 
+giuridica a cui il certificato X.509 è associato nel rispetto della 
+seguente sintassi:
 
 - CF:IT‐<codice_fiscale> dove <codice_fiscale> è il codice fiscale della 
   persona giuridica.
@@ -70,14 +72,14 @@ Nel caso in cui il certificato X.509 sia riferito ad un’unità organizzativa
 o area organizzativa omogenea di una specifica pubblica amministrazione, 
 cosi come registrato nell’IPA, la pubblica amministrazione al momento 
 della generazione dello stesso certificato assicura, oltre a quanto indicato 
-al paragrafo 5.1.2.2, il popolamento dell’OID 2.5.4.11 organizationalUnitName, 
-e nello specifico:
+al paragrafo precedente, il popolamento dell’OID 2.5.4.11 
+organizationalUnitName, e nello specifico:
 
-- nel caso di unità organizzativa, IPAIT‐UO_<codice_UO> dove <codice_UO> 
-  è il codice IPA dell’unità organizzativa così come risulta dall’IPA;
+- nel caso di unità organizzativa, IPAIT‐UO_<Codice_uni_uo> dove <Codice_uni_uo> 
+  è il codice univoco dell'unità organizzativa così come risulta dall’IPA;
 
-- nel caso di area organizzativa omogenea, IPAIT‐AOO_<codice_AOO> dove 
-  <codice_AOO> è il codice IPA dell’area organizzativa omogenea così 
+- nel caso di area organizzativa omogenea, IPAIT‐AOO_<Codice_uni_aoo> dove 
+  <Codice_uni_aoo> è codice univoco dell’area organizzativa omogenea così 
   come risulta dall’IPA.
 
 Verifica associazione di certificato X.509 ad una pubblica amministrazione
@@ -105,10 +107,10 @@ La verifica è realizzata attraverso i seguenti passi:
        fiscale indicato nell’OID 2.5.4.97 organizationIdentifier e 
        recupera il codice IPA dell’amministrazione;
 
-    2. la presenza nell’elenco delle unità organizzative dell’IPA della 
-       coppia codice IPA dell'unità organizzativa indicato nell’OID 
-       2.5.4.11 organizationalUnitName e codice IPA dell’amministrazione 
-       recuperato al passo precedente;
+    2. la presenza nell’elenco delle unità organizzative dell’IPA del 
+       codice univoco dell'unità organizzativa indicato nell’OID 2.5.4.11 
+       organizationalUnitName riferito all'amministrazione verificata 
+       al precedente passo 1;
 
 - nel caso di certificato X.509 associato a una area organizzativa 
   omogenea di una specifica pubblica amministrazione verifica: 
@@ -117,12 +119,17 @@ La verifica è realizzata attraverso i seguenti passi:
        fiscale indicato nell’OID 2.5.4.97 organizationIdentifier e recupera 
        il codice IPA dell’amministrazione;
 
-    2. la presenza nell’elenco delle aree organizzative omogenee dell’IPA 
-       della coppia codice IPA dell'area organizzativa omogenea indicato 
-       nell’OID 2.5.4.11 organizationalUnitName e codice IPA 
-       dell’amministrazione recuperato al passo precedente.
-    
+    2. la presenza nell’elenco delle unità organizzative dell’IPA del 
+       codice univoco dell'area organizzativa omogenea indicato nell’OID
+       2.5.4.11 organizationalUnitName riferito all'amministrazione 
+       verificata al precedente passo 1;
 
 .. [1]
    Cf.
    https://www.agid.gov.it/sites/default/files/repository_files/regole_tecniche_e_raccomandazioni_v1.1_0.pdf
+
+   
+
+.. forum_italia::
+   :topic_id: 22263
+   :scope: document

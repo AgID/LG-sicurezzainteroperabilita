@@ -23,8 +23,15 @@ nel MODI.
        per assicurare la sicurezza delle transazioni implementate 
        tramite API.
 
+|
+
 .. toctree::
    :maxdepth: 4
 
    06_sicurezza-livello-applicativo/01_tecnologie-REST.rst
    06_sicurezza-livello-applicativo/02_tecnologie-SOAP.rst
+
+
+.. forum_italia::
+   :topic_id: 22259
+   :scope: document
