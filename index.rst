@@ -4,7 +4,7 @@ Linee Guida Tecnologie e standard per la sicurezza dell'interoperabilità tramit
 .. admonition:: Consultazione pubblica
 
    La consultazione pubblica per questo documento è attiva dal 
-   <START_CONSULTAZIONE> al <END_CONSULTAZIONE> 2021.
+   19/04/2021 al 18/05/2021 2021.
 
 Questo documento raccoglie il testo delle *Linee Guida 
 Tecnologie e standard per assicurare la sicurezza dell'interoperabilità 
