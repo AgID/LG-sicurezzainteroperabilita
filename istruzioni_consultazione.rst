@@ -4,7 +4,7 @@ Istruzioni per la consultazione pubblica
 Informazioni sulla consultazione
 ================================
 
--  **Durata della consultazione:** dal 19/04/2021 al 18/05/2021 2021
+-  **Durata della consultazione:** dal 19/04/2021 al 18/05/2021
 
 -  **Settore:** ICT
 
@@ -44,4 +44,4 @@ Come partecipare
 Le Linee Guida sono pubblicate su `Docs Italia <https://docs.italia.it/AgID/documenti-in-consultazione/lg-sicurezza-interoperabilita-docs/it/bozza/index.html>`_ 
 ed è possibile commentarle su `Forum Italia <https://forum.italia.it/c/documenti-in-consultazione/linee-guida-tecnologie-e-standard-sicurezza-api/80>`_.
 
-È possibile inviare i propri commenti fino a 18/05/2021 2021.
+È possibile inviare i propri commenti fino a 18/05/2021.
