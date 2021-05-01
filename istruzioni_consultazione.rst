@@ -41,7 +41,7 @@ dello stesso Codice.
 Come partecipare
 ================
 
-Le Linee Guida sono pubblicate su `Docs Italia <https://docs.italia.it/xxxxxxx>`_ 
-ed è possibile commentarle su `Forum Italia <https://forum.italia.it/xxxxxx>`_.
+Le Linee Guida sono pubblicate su `Docs Italia <https://docs.italia.it/AgID/documenti-in-consultazione/lg-sicurezza-interoperabilita-docs/it/bozza/index.html>`_ 
+ed è possibile commentarle su `Forum Italia <https://forum.italia.it/c/documenti-in-consultazione/linee-guida-tecnologie-e-standard-sicurezza-api/80>`_.
 
 È possibile inviare i propri commenti fino a 18/05/2021 2021.
