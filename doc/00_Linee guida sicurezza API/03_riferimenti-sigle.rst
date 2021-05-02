@@ -58,8 +58,6 @@ documento.
           dell’Amministrazione Digitale";
           NOTA – Il D. Lgs. 82/2010 è noto anche con l’abbreviazione "CAD"
 
-[TODO]
-
 Termini e definizioni
 ---------------------
 
@@ -72,9 +70,6 @@ Termini e definizioni
 
    * -    [API]
      -    Application Programming Interfac
-
-[TODO]
-
 
 
 .. forum_italia::
