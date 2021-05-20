@@ -31,6 +31,22 @@ oggetti o array.
 JSON è definito dall’Internet Engineering Task Force nell’:rfc:`8259` [2]_, 
 a cui si rimanda per approfondimenti.
 
+Come tutti i formati di interscambio general-purpose
+e che permettono l'utilizzo di strutture nidificate,
+in alcuni ambiti può essere opportuno limitare l'espressività della notazione
+(eg. limitando il numero di oggetti nidificati in fase di processamento o di serializzazione).
+Si veda a questo riguardo :rfc:`7493`, che definisce un sottoinsieme interoperabile di JSON
+e che include tra l'altro raccomandazioni su:
+- unicode code points da evitare;
+- quando serializzare numeri in formato di stringa;
+- accortezze riguardo la gestione di chiavi duplicate.
+
+Per casi d'uso specifici come gli header HTTP,
+sono di recente stati creati di recente formati di serializzazione appositi
+con delle librerie di processamento e serializzazione dedicate:
+si veda Structured Field Values for HTTP :rfc:`8941`.
+
+
 JWS - JSON Web Signature
 ------------------------
 
