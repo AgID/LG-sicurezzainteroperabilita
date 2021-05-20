@@ -81,7 +81,7 @@ della crittografia e riducendo il tempo di handshake.
 Le suite di crittografia TLS 1.3 non includono più gli algoritmi di 
 scambio chiave e firma e l’autenticazione è stata unita alla crittografia 
 in un unico algoritmo di tipo AEAD (Authenticated Encryption with 
-Additional Data). Ciò ha semplificato le possibili combinazioni di 
+Associated Data). Ciò ha semplificato le possibili combinazioni di 
 cipher suite.  
 
 Attualmente sono solo cinque le cipher disponibili per TLS 1.3:  

@@ -66,10 +66,29 @@ documento.
 
    * -    [CAD]
      -    decreto legislativo 7 marzo 2005, n. 82 recante "Codice 
-          dell’Amministrazione Digitale";
-          NOTA – Il D. Lgs. 82/2010 è noto anche con l’abbreviazione "CAD"
+          dell’Amministrazione Digitale"          
 
-[TODO]
+   * -    [EIF]
+     -    European Interoperability Framework (EIF)
+
+   * -    [CE 2008/1205]
+     -    Regolamento (CE) n. 1205/2008 della Commissione del 3 
+          dicembre 2008 recante attuazione della direttiva 2007/2/CE 
+          del Parlamento europeo e del Consiglio per quanto riguarda i 
+          metadati
+
+   * -    [D.lgs. 196/2003]
+     -    Codice in materia di protezione dei dati personali
+
+   * -    [UE 679/2016]
+     -    Regolamento (UE) 2016/679 del 27 aprile 2016 relativo alla 
+          protezione delle persone fisiche con riguardo al trattamento 
+          dei dati personali (in breve GDPR)
+
+   * -    [UE 910/2014]
+     -    Regolamento (UE) n. 910/2014 del 23 luglio 2014 in materia di 
+          identificazione elettronica e servizi fiduciari per le 
+          transazioni elettroniche nel mercato interno (in breve eIDAS)
 
 Termini e definizioni
 ---------------------
@@ -82,10 +101,33 @@ Termini e definizioni
      -    Agenzia per l’Italia Digitale
 
    * -    [API]
-     -    Application Programming Interfac
+     -    Application Programming Interface
 
-[TODO]
+   * -    [IPA]
+     -    Elenco di cui all’articolo 6-ter del CAD 
 
+   * -    [MODI]
+     -    Modello di Interoperabilità delle Pubbliche Amministrazioni 
+          Italiane
+
+   * -    [OID]
+     -    Object identifier
+
+   * -    [REST]
+     -    Representational State Transfer
+
+   * -    [SOAP]
+     -    Simple Object Access Protocol
+
+   * -    [WS-\*]
+     -    Lo stack degli standard emanati relativi alle tecnologie SOAP, 
+          tra cui SOAP, WSDL, WS-Security, WS-Addressing e WS-I
+
+   * -    [WSDL]
+     -    Web Services Description Language
+
+   * -    [XML]
+     -    eXtensible Markup Language
 
 
 .. forum_italia::
