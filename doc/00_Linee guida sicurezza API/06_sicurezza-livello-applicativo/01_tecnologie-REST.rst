@@ -10,7 +10,9 @@ per l’implementazione delle API.
 
 Nel contesto delle tecnologie REST, in relazione ai temi oggetto delle 
 Linee Guida, si evidenziano le specifiche JSON-based JWT (JSON Web Token), 
-JWS (JSON Web Sign), JWE (JSON Web Encryption) e JWA (JSON Web Algorithms) 
+JWS (JSON Web Signatures),
+JWK (JSON Web Key),
+JWE (JSON Web Encryption) e JWA (JSON Web Algorithms)
 per assicurare la sicurezza dei messaggi scambiati tramite API REST. 
 
 JSON - JavaScript Object Notation
@@ -27,7 +29,7 @@ JSON è basato su due strutture:
 Dove i valori possono essere stringhe, numeri, valori booleani (true/false), 
 oggetti o array.
 
-JSON è definito dall’Internet Engineering Task Force nell’RFC 8259 [2]_, 
+JSON è definito dall’Internet Engineering Task Force nell’:rfc:`8259` [2]_, 
 a cui si rimanda per approfondimenti.
 
 JWS - JSON Web Signature
@@ -49,8 +51,30 @@ ed è rappresentata dalla concatenazione:
 
    BASE64URL(UTF8(JWS Header)) ||'.' || BASE64URL(JWS Payload) || '.' || BASE64URL(JWS Signature)
 
-JWS è definito dall’Internet Engineering Task Force nell’RFC 7515 [3]_, 
+JWS è definito dall’Internet Engineering Task Force nell’:rfc:`7515` [3]_, 
 a cui si rimanda per approfondimenti.
+
+JWK - JSON Web Key
+------------------------
+
+JWK definisce delle strutture dati per rappresentare
+una o più chiavi crittografiche associate a dei Json Web Algorithm,
+a supporto dei meccanismi di firma definiti in JWS
+o di cifratura definiti in JWE.
+
+La specifica supporta sia chiavi associate ad algoritmi
+simmetrici che asimmetrici, chiavi pubbliche e chiavi private.
+Permette inoltre di rappresentare eventuali certificati associati
+alle chiavi.
+
+I tipi di chiavi supportate sono indicate nel
+`JSON Object Signing and Encryption (JOSE) IANA Registry <https://www.iana.org/assignments/jose>`_
+che viene periodicamente aggiornato
+(eg. :rfc:`8037` ha aggiunto il supporto per l'algoritmo Ed25519).
+
+JWK è definito dall’Internet Engineering Task Force nell’:rfc:`7517`,
+a cui si rimanda per approfondimenti.
+
 
 JWE - JSON Web Encryption
 -------------------------
@@ -76,7 +100,7 @@ ed è rappresentata dalla concatenazione:
 
    BASE64URL(UTF8(JWE Header)) || '.' || BASE64URL(JWE Encrypted Key) || '.' || BASE64URL(JWE Initialization Vector) || '.' || BASE64URL(JWE Ciphertext) || '.' || BASE64URL(JWE Authentication Tag)
 
-JWE è definito dall’Internet Engineering Task Force nell’RFC 7516 [4]_, 
+JWE è definito dall’Internet Engineering Task Force nell’:rfc:`7516` [4]_, 
 a cui si rimanda per approfondimenti.
 
 JWT - JSON Web Token
@@ -98,7 +122,7 @@ in chiaro crittografato da JWE.
 Un JWT può anche prevede la possibilità di essere racchiuso in un'altra 
 struttura JWE o JWS per creare un JWT annidato, consentendo l'esecuzione 
 della firma e della crittografia annidate JWT è definito dall’Internet 
-Engineering Task Force nell’RFC 7519 [5]_, a cui si rimanda per approfondimenti.
+Engineering Task Force nell’:rfc:`7519` [5]_, a cui si rimanda per approfondimenti.
 
 I JWT DEVONO essere usati rispettando le indicazioni di sicurezza indicate in :RFC:`8725`.
 
@@ -109,13 +133,13 @@ JWA - JSON Web Algorithms
 JWA individua gli algoritmi crittografici da utilizzare con le specifiche 
 JWS e JWE. 
 
-JWA è definito dall’Internet Engineering Task Force nell’RFC 7518 [6]_, 
+JWA è definito dall’Internet Engineering Task Force nell’:rfc:`7518` [6]_, 
 a cui si rimanda per approfondimenti.
 
 Le Linee Guida include, quale strumento operativo, l’allegato 
-“Raccomandazioni in merito agli algoritmi per XML Canonicalization, 
+"Raccomandazioni in merito agli algoritmi per XML Canonicalization, 
 Digest and signature public key SOAP e Digest and signature public key 
-REST” in cui sono tabellati anche gli algoritmi crittografici individuati 
+REST" in cui sono tabellati anche gli algoritmi crittografici individuati 
 in JWA. In merito al citato all’allegato si ricorda che, così come 
 indicato al paragrafo :ref:`structure`, l’aggiornamento è assicurato 
 attraverso Circolari emanate dall’AgID.
@@ -143,7 +167,7 @@ OAuth 2.0 definisce 4 Grant Type: Authorization Code Grant Type, Implicit
 Grant Type, Resource Owner Password Credentials Grant Type e Client 
 Credentials Grant Type.
 
-OAuth 2.0 è definito dall’Internet Engineering Task Force nell’RFC 6749 [7]_, 
+OAuth 2.0 è definito dall’Internet Engineering Task Force nell’:rfc:`6749` [7]_, 
 a cui si rimanda per approfondimenti.
 
 Visto che il contesto di interesse è machine-to-machine, dei suddetti 
