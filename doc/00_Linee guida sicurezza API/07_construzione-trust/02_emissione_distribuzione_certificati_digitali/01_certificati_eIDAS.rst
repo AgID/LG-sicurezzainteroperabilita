@@ -27,7 +27,8 @@ dei certificati qualificati:
    * - **[SIC_API_06]** 
      - I soggetti che rendono disponibili API DEVONO verificare la 
        validità dei certificati qualificati emessi da una CAQ, compresa 
-       l’eventuale revoca degli stessi, per ogni invocazione da parte 
+       l’eventuale revoca degli stessi, ogni volta che i certificati
+       vengono utilizzati (ad esempio per stabilire una sessione TLS) da parte 
        di soggetti delle stesse API per cui è abilitato l’accesso.
 
    
