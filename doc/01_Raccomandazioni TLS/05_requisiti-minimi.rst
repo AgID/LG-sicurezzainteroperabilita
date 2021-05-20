@@ -2,7 +2,7 @@ Requisiti minimi lato server
 ============================
 
 Questa sezione fornisce una serie minima di requisiti che un server deve 
-implementare per soddisfare queste linee guida, ma non ha l'obiettivo
+implementare per soddisfare queste linee guida, ma non ha l’obiettivo
 di fornire alcuna indicazione implementativa. 
 
 Si ribadisce che il presente documento verrà aggiornato all’eventuale 
