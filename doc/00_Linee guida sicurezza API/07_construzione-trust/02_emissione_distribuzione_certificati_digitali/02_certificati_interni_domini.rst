@@ -62,13 +62,15 @@ Gestione della revoca dei certificati digitali
 ----------------------------------------------
 
 La CA del dominio di interoperabilità assicura la disponibilità dei 
-necessari servizi per permettere, per ogni invocazione alle proprie 
-API, ai soggetti afferenti ad un dominio di interoperabilità di 
-verificare l’eventuale revoca di certificati digitali emessi.
+necessari servizi per permettere
+ai soggetti afferenti ad un dominio di interoperabilità di
+verificare l’eventuale revoca di certificati digitali emessi
+nel rispetto degli accordi stabiliti.
 
-A tal fine si DOVREBBE utilizzare la Online Certificate 
-Status Protocol (OCSP) [1]_ o la Certificate Revocation List (CRL) 
-[2]_.
+A tal fine si DOVREBBE utilizzare le Online Certificate
+Status Protocol (OCSP) :rfc:`6960` [1]_
+o la Certificate Revocation List (CRL) :rfc:`5280`
+[2]_ con i relativi aggiornamenti.
 
 
 .. _`gestione-distribuzione`:
