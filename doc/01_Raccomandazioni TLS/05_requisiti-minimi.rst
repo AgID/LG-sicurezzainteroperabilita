@@ -11,7 +11,7 @@ insorgere di problemi di sicurezza legati ai protocolli e/o algoritmi.
 Versioni TLS raccomandate
 -------------------------
 
-I servizi esposti DEVONO utilizzare la versione TLS 1.2 o superiori e 
+I servizi esposti DEVONO utilizzare la versione TLS 1.2, o superiori, e 
 DOVREBBERO rifiutare la negoziazione di una versione inferiore. 
 
 Versioni precedenti del protocollo sono insicure o contengono vulnerabilità 

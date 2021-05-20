@@ -28,17 +28,15 @@ interoperabilità in cui sono definite:
    :header-rows: 0
 
    * - **[API_SIC_07]** 
-     - I soggetti afferenti ad un dominio di interoperabilità che rendono 
-       disponibili API DEVONO accettare i certificati digitali emessi 
+     - Gli Erogatori DEVONO accettare i certificati digitali emessi 
        da una CA del dominio di interoperabilità per autenticare gli 
        altri soggetti utilizzatori delle stesse API.
 
    * - **[API_SIC_08]** 
-     - I soggetti che rendono disponibili API DEVONO verificare la 
-       validità dei certificati digitali emessi da una CA del dominio 
-       di interoperabilità, compresa l’eventuale revoca degli stessi, 
-       per ogni invocazione da parte di soggetti delle stesse API per 
-       cui è abilitato l’accesso.
+     - Gli Erogatori DEVONO verificare la validità dei certificati digitali 
+       emessi da una CA del dominio di interoperabilità, compresa 
+       l’eventuale revoca degli stessi, per ogni utilizzo da parte 
+       dei Fruitori.
 
 .. _`emissione-certificati`:
 
