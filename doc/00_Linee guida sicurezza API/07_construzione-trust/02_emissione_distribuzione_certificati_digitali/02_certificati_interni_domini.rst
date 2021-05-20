@@ -35,8 +35,12 @@ interoperabilità in cui sono definite:
    * - **[API_SIC_08]** 
      - Gli Erogatori DEVONO verificare la validità dei certificati digitali 
        emessi da una CA del dominio di interoperabilità, compresa 
-       l’eventuale revoca degli stessi, ad ogni utilizzo da parte dei Fruitori
-       (ad esempio per stabilire una sessione TLS).
+       l’eventuale revoca degli stessi.
+       La frequenza di validazione viene stabilita dalle parti
+       nel rispetto della normativa vigente
+       e valutando gli impatti prestazionali e di sicurezza
+       delle scelte.
+
 
 .. _`emissione-certificati`:
 
@@ -62,13 +66,14 @@ Gestione della revoca dei certificati digitali
 ----------------------------------------------
 
 La CA del dominio di interoperabilità assicura la disponibilità dei 
-necessari servizi per permettere, per ogni invocazione alle proprie 
-API, ai soggetti afferenti ad un dominio di interoperabilità di 
+necessari servizi per permettere
+ai soggetti afferenti ad un dominio di interoperabilità di
 verificare l’eventuale revoca di certificati digitali emessi.
 
-A tal fine si DOVREBBE utilizzare la Online Certificate 
-Status Protocol (OCSP) [1]_ o la Certificate Revocation List (CRL) 
-[2]_.
+A tal fine si DOVREBBE utilizzare le Online Certificate
+Status Protocol (OCSP) :rfc:`6960` [1]_
+o la Certificate Revocation List (CRL) :rfc:`5280`
+[2]_ con i relativi aggiornamenti.
 
 
 .. _`gestione-distribuzione`:
