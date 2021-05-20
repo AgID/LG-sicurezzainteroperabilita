@@ -28,6 +28,14 @@ XML è definito dal World Wide Web Consortium (W3C) nella raccomandazione
 Extensible Markup Language (XML) 1.0 [1]_, a cui si rimanda per 
 approfondimenti.
 
+Come tutti i formati di interscambio general-purpose
+e che permettono l'utilizzo di strutture nidificate,
+in alcuni ambiti può essere opportuno limitare l'espressività della notazione
+(eg. limitando il numero di oggetti nidificati in fase di processamento o di serializzazione)
+tramite opportuni controlli.
+Si veda a riguardo
+`OWASP XML Security Cheat Sheet <https://cheatsheetseries.owasp.org/cheatsheets/XML_Security_Cheat_Sheet.html>`_
+
 XML-canonicalization
 --------------------
 
