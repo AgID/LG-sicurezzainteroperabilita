@@ -90,6 +90,7 @@ documento.
           identificazione elettronica e servizi fiduciari per le 
           transazioni elettroniche nel mercato interno (in breve eIDAS)
 
+
 Termini e definizioni
 ---------------------
 
@@ -122,9 +123,6 @@ Termini e definizioni
    * -    [WS-\*]
      -    Lo stack degli standard emanati relativi alle tecnologie SOAP, 
           tra cui SOAP, WSDL, WS-Security, WS-Addressing e WS-I
-
-   * -    [WSDL]
-     -    Web Services Description Language
 
    * -    [XML]
      -    eXtensible Markup Language
