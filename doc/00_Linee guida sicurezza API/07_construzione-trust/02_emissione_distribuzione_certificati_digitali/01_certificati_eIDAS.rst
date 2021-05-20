@@ -19,7 +19,7 @@ dei certificati qualificati:
    :header-rows: 0
 
    * - **[SIC_API_05]** 
-     - I soggetti afferenti un dominio di interoperabilità che rendono 
+     - I soggetti afferenti ad un dominio di interoperabilità che rendono 
        disponibili API DEVONO accettare i certificati qualificati emessi 
        da una CAQ eIDAS per autenticare gli altri soggetti utilizzatori 
        delle stesse API.
