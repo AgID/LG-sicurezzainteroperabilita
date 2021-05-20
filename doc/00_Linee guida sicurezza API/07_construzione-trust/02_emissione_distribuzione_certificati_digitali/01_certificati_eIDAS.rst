@@ -2,9 +2,9 @@ Certificati digitali emessi da CAQ eIDAS
 ========================================
 
 L’utilizzo di certificati qualificati emessi da Certification Authority 
-qualificati ai sensi del Regolamento UE n° 910/2014 del Parlamento 
+qualificate ai sensi del Regolamento UE n° 910/2014 del Parlamento
 europeo e del Consiglio del 23 luglio 2014 (di seguito Regolamento 
-eIDAS) rappresenta la modalità di emissione dei certificati nell’unione 
+eIDAS) rappresenta la modalità di emissione dei certificati nell’Unione
 europea con prefissati requisiti sicurezza e di interoperabilità.
 
 In tale ipotesi le garanzie e le regole da adottare per l’utilizzo dei 
