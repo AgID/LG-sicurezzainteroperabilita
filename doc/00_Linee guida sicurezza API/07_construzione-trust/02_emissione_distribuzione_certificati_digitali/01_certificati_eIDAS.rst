@@ -25,8 +25,11 @@ dei certificati qualificati:
    * - **[SIC_API_06]** 
      - Gli Erogatori DEVONO verificare la validità dei certificati 
        qualificati emessi da una CAQ, compresa l’eventuale revoca degli 
-       stessi, ad ogni utilizzo da parte dei Fruitori
-       (ad esempio per stabilire una sessione TLS).
+       stessi.
+       La frequenza di validazione viene stabilita dalle parti
+       nel rispetto della normativa vigente
+       e valutando gli impatti prestazionali e di sicurezza
+       delle scelte.
 
 .. forum_italia::
   :topic_id: 22265
