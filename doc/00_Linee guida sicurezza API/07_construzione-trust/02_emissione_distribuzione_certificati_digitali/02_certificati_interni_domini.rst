@@ -35,8 +35,8 @@ interoperabilità in cui sono definite:
    * - **[API_SIC_08]** 
      - Gli Erogatori DEVONO verificare la validità dei certificati digitali 
        emessi da una CA del dominio di interoperabilità, compresa 
-       l’eventuale revoca degli stessi, per ogni utilizzo da parte 
-       dei Fruitori.
+       l’eventuale revoca degli stessi, ad ogni utilizzo da parte dei Fruitori
+       (ad esempio per stabilire una sessione TLS).
 
 .. _`emissione-certificati`:
 
