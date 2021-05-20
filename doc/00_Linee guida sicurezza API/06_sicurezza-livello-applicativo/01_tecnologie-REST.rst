@@ -132,10 +132,11 @@ e/o crittografati rispettivamente utilizzando JWS e JWE.
 
 Il JOSE Header contiene le operazioni crittografiche applicate al
 JWT Claims Set:
-in un JWS, esso indica come è stato firmato
-il JWT Claims Set incluso nel JWS Payload;
-mentre in un JWE, indica come è stato cifrato
-il JWT Claims Set incluso nel JWE Ciphertext.
+
+- in un JWS, esso indica come è stato firmato il JWT Claims Set incluso 
+  nel JWS Payload;
+- in un JWE, indica come è stato cifrato il JWT Claims Set incluso nel 
+  JWE Ciphertext.
 
 Un JWT può anche prevede la possibilità di essere racchiuso in un'altra 
 struttura JWE o JWS per creare un JWT annidato, consentendo l'esecuzione 
