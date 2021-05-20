@@ -55,7 +55,7 @@ serie di possibili minacce, tra cui:
 - la contraffazione delle firme o l'alterazione del contenuto;
 - errati processi di validazione e verifica;
 - il riuso non autorizzato di messaggi firmati.
-
+Questo è particolarmente importante quando si utilizzano JWS nei processi di autenticazione o autorizzazione.
 JWS è definito dall’Internet Engineering Task Force nell’:rfc:`7515` [3]_, 
 a cui si rimanda per approfondimenti.
 
