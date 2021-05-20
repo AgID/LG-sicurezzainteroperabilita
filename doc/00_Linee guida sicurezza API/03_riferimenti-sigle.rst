@@ -37,11 +37,22 @@ Le Linee Guida includono i seguenti Allegati:
   Digest and signature public key SOAP e Digest and signature public 
   key REST.
 
-L'aggiornamento degli allegati, considerati i temi trattati negli stessi 
-soggetti alla continua evoluzione tecnologica e alla possibile scoperta 
-di nuove vulnerabilità, è realizzato attraverso Circolari emanate 
-dall’AgID al fine di assicurarne il tempestivo allineamento alle 
-evidenze maturate.
+  Considerata la velocità dell’innovazione, le Linee guida devono 
+  garantire un adattamento costante ai cambiamenti imposti dall’incessante 
+  rivoluzione digitale. Di qui la scelta di prevedere un testo “statico” 
+  che contenga la base normativa della materia e una serie di “allegati” 
+  i cui contenuti più “flessibili” potranno adeguarsi agevolmente 
+  all’evoluzione tecnologica. Tale processo di costante adeguamento 
+  degli "allegati" è realizzato in coerenza con il quadro normativo e 
+  attuativo in materia di digitalizzazione e nello specifico ai sensi 
+  della lettera a del comma 2 dell’articolo 14-bis del CAD che assegna 
+  ad AgID la funzione di “emanazione di Linee guida contenenti regole, 
+  standard e guide tecniche, nonche' di indirizzo, vigilanza e controllo 
+  sull'attuazione e sul rispetto delle norme di cui al presente Codice, 
+  anche attraverso l'adozione di atti amministrativi generali, in materia 
+  di agenda digitale, digitalizzazione della pubblica amministrazione, 
+  sicurezza informatica, interoperabilità e cooperazione applicativa tra 
+  sistemi informatici pubblici e quelli dell'Unione europea”.
 
 Riferimenti Normativi
 ---------------------
@@ -55,8 +66,30 @@ documento.
 
    * -    [CAD]
      -    decreto legislativo 7 marzo 2005, n. 82 recante "Codice 
-          dell’Amministrazione Digitale";
-          NOTA – Il D. Lgs. 82/2010 è noto anche con l’abbreviazione "CAD"
+          dell’Amministrazione Digitale"          
+
+   * -    [EIF]
+     -    European Interoperability Framework (EIF)
+
+   * -    [CE 2008/1205]
+     -    Regolamento (CE) n. 1205/2008 della Commissione del 3 
+          dicembre 2008 recante attuazione della direttiva 2007/2/CE 
+          del Parlamento europeo e del Consiglio per quanto riguarda i 
+          metadati
+
+   * -    [D.lgs. 196/2003]
+     -    Codice in materia di protezione dei dati personali
+
+   * -    [UE 679/2016]
+     -    Regolamento (UE) 2016/679 del 27 aprile 2016 relativo alla 
+          protezione delle persone fisiche con riguardo al trattamento 
+          dei dati personali (in breve GDPR)
+
+   * -    [UE 910/2014]
+     -    Regolamento (UE) n. 910/2014 del 23 luglio 2014 in materia di 
+          identificazione elettronica e servizi fiduciari per le 
+          transazioni elettroniche nel mercato interno (in breve eIDAS)
+
 
 Termini e definizioni
 ---------------------
@@ -69,7 +102,30 @@ Termini e definizioni
      -    Agenzia per l’Italia Digitale
 
    * -    [API]
-     -    Application Programming Interfac
+     -    Application Programming Interface
+
+   * -    [IPA]
+     -    Elenco di cui all’articolo 6-ter del CAD 
+
+   * -    [MODI]
+     -    Modello di Interoperabilità delle Pubbliche Amministrazioni 
+          Italiane
+
+   * -    [OID]
+     -    Object identifier
+
+   * -    [REST]
+     -    Representational State Transfer
+
+   * -    [SOAP]
+     -    Simple Object Access Protocol
+
+   * -    [WS-\*]
+     -    Lo stack degli standard emanati relativi alle tecnologie SOAP, 
+          tra cui SOAP, WSDL, WS-Security, WS-Addressing e WS-I
+
+   * -    [XML]
+     -    eXtensible Markup Language
 
 
 .. forum_italia::

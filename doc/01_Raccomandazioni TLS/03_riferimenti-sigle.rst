@@ -102,9 +102,6 @@ Termini e definizioni
    * -     [SHA]
      -     Secure Hash Algorithm 
 
-   * -     [SSL]
-     -     Secure Socket Layer
-
    * -     [TDEA]
      -     Triple Data Encryption Algorithm
 

@@ -1,14 +1,14 @@
 Certificati digitali utilizzabili
 =================================
 
-Le tecnologie e standard indicate nei precedenti capitoli trovano 
+Le tecnologie e gli standard indicate nei precedenti capitoli trovano 
 fondamento sull’utilizzo di certificati digitali. In quanto segue si 
 riportano le raccomandazioni in merito alla tipologia dei certificati 
 digitali e gli object identifier che caratterizzano gli stessi. In 
-quanto segue si assume l’applicazione di quanto indicato nelle linee 
-guida “Regole Tecniche e Raccomandazioni afferenti la generazione di 
-certificati elettronici qualificati, firme e sigilli elettronici 
-qualificati e validazioni temporali elettroniche qualificate” [1]_.
+quanto segue si applicano le linee guida “Regole Tecniche e Raccomandazioni 
+afferenti la generazione di certificati elettronici qualificati, firme 
+e sigilli elettronici qualificati e validazioni temporali elettroniche 
+qualificate” [1]_.
 
 .. _certificate-type:
   
@@ -20,7 +20,7 @@ qualificati) da utilizzare è determinata dal livello entro cui gli
 stessi sono utilizzati, nel dettaglio:
 
 - per l’applicazione della sicurezza di canale si utilizzano *Website 
-  Authentication Certificates*, detti anche certificati SSL/TLS, che 
+  Authentication Certificates*, detti anche certificati TLS, che 
   forniscono un metodo per autenticare i server e client coinvolti ed 
   abilitano i meccanismi per crittografare le comunicazioni;
 
@@ -29,13 +29,12 @@ stessi sono utilizzati, nel dettaglio:
   a cui il sigillo è associato, abilitando la determinazione dell'origine, 
   della correttezza e dell'integrità dei messaggi oggetto delle interazioni.
 
-Object identifier per l’identificazione delle pubbliche amministrazioni
------------------------------------------------------------------------
+Object identifier (OID) per l’identificazione delle pubbliche amministrazioni
+-----------------------------------------------------------------------------
 
-L’utilizzo dei certificati digitali, quale elemento per l’identificazione 
-delle pubbliche amministrazioni, è favorito dalla possibilità di 
-automatizzare la verifica della persona giuridica a cui il certificato 
-è associato. 
+Usare certificati digitali per identificare le pubbliche amministrazioni, 
+permette di automatizzare la verifica della persona giuridica a cui il 
+certificato è associato. 
 
 Ricordando che la fonte autoritativa dell’elenco delle pubbliche 
 amministrazioni è rappresentato dall’elenco di cui all’articolo 6-ter 

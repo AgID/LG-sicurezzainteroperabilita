@@ -2,7 +2,7 @@ Requisiti minimi lato server
 ============================
 
 Questa sezione fornisce una serie minima di requisiti che un server deve 
-implementare per soddisfare queste linee guida, ma non ha l’intenzione 
+implementare per soddisfare queste linee guida, ma non ha l’obiettivo
 di fornire alcuna indicazione implementativa. 
 
 Si ribadisce che il presente documento verrà aggiornato all’eventuale 
@@ -12,7 +12,7 @@ Versioni TLS raccomandate
 -------------------------
 
 I servizi esposti DEVONO utilizzare la versione TLS 1.2 o superiori e 
-DOVREBBERO rifiutare versioni del protocollo inferiori. 
+DOVREBBERO rifiutare la negoziazione di una versione inferiore. 
 
 Versioni precedenti del protocollo sono insicure o contengono vulnerabilità 
 note. 

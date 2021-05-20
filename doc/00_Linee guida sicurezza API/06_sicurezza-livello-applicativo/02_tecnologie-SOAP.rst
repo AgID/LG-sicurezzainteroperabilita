@@ -47,7 +47,7 @@ Le Linee Guida include, quale strumento operativo, l’allegato
 “Raccomandazioni in merito agli algoritmi per XML Canonicalization, 
 Digest and signature public key SOAP e Digest and signature public key 
 REST” in cui sono tabellati anche gli algoritmi di XML-canonicalization. 
-In merito al citato all’allegato si ricorda che, cosi come indicato al 
+In merito al citato all’allegato si ricorda che, così come indicato al 
 paragrafo :ref:`structure`, l’aggiornamento è assicurato attraverso 
 Circolari emanate dall’AgID.
 
@@ -70,7 +70,7 @@ La Linea Guida include, quale strumento operativo, l’allegato
 “Raccomandazioni in merito agli algoritmi per XML Canonicalization, 
 Digest and signature public key SOAP e Digest and signature public key 
 REST” in cui sono tabellati anche gli algoritmi di XML-signature. 
-In merito al citato all’allegato si ricorda che, cosi come indicato al 
+In merito al citato all’allegato si ricorda che, così come indicato al 
 paragrafo :ref:`structure`, l’aggiornamento è assicurato attraverso 
 Circolari emanate dall’AgID.
 
@@ -90,7 +90,7 @@ La Linea Guida include, quale strumento operativo, l’allegato
 “Raccomandazioni in merito agli algoritmi per XML Canonicalization, 
 Digest and signature public key SOAP e Digest and signature public key 
 REST” in cui sono tabellati anche gli algoritmi di XML-encryption. 
-In merito al citato all’allegato si ricorda che, cosi come indicato al 
+In merito al citato all’allegato si ricorda che, così come indicato al 
 paragrafo :ref:`structure`, l’aggiornamento è assicurato attraverso 
 Circolari emanate dall’AgID.
 
@@ -111,7 +111,7 @@ come codificare i seguenti token:
 - certificati X.509;
 - asserzioni SAML. 
 
-La suite WS-security è definito dalla Organization for the Advancement 
+La suite WS-security è definita dalla Organization for the Advancement 
 of Structured Information Standards (OASIS) tra cui segnaliamo: 
 
 - WS-Security SOAP Message Security 1.1 [5]_;

@@ -28,7 +28,7 @@ indicati di seguito.
        (ad esempio servizi per l’emissione di certificazione utilizzati 
        in contesti privati da cittadini e imprese) o siano oggetto 
        dell’interoperabilità transfrontaliera con altri stati delle CE, 
-       si deve utilizzare la modalità indicata al paragrafo :ref:`Certificati digitali emessi da CAQ eIDAS`
+       si DEVE utilizzare la modalità indicata al paragrafo :ref:`Certificati digitali emessi da CAQ eIDAS`
        per assicurare l’accettazione dei certificati digitali emessi.
 
    

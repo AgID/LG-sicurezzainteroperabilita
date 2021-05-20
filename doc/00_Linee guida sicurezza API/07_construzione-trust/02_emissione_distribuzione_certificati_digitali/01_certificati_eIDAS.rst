@@ -1,7 +1,7 @@
 Certificati digitali emessi da CAQ eIDAS
 ========================================
 
-L’utilizzo di certificati qualificati emessi da Certification Autority 
+L’utilizzo di certificati qualificati emessi da Certification Authority 
 qualificati ai sensi del Regolamento UE n° 910/2014 del Parlamento 
 europeo e del Consiglio del 23 luglio 2014 (di seguito Regolamento 
 eIDAS) rappresenta la modalità di emissione dei certificati nell’unione 
@@ -19,7 +19,7 @@ dei certificati qualificati:
    :header-rows: 0
 
    * - **[SIC_API_05]** 
-     - I soggetti afferenti d un dominio di interoperabilità che rendono 
+     - I soggetti afferenti ad un dominio di interoperabilità che rendono 
        disponibili API DEVONO accettare i certificati qualificati emessi 
        da una CAQ eIDAS per autenticare gli altri soggetti utilizzatori 
        delle stesse API.

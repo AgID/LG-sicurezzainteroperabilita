@@ -27,7 +27,7 @@ JSON è basato su due strutture:
 Dove i valori possono essere stringhe, numeri, valori booleani (true/false), 
 oggetti o array.
 
-JSON è definito dall’Internet Engineering Task Force nell’RFC 7159 [2]_, 
+JSON è definito dall’Internet Engineering Task Force nell’RFC 8259 [2]_, 
 a cui si rimanda per approfondimenti.
 
 JWS - JSON Web Signature
@@ -91,15 +91,14 @@ JWT Claims Set.
 Se il JOSE Header è per un JWS, il JWT è rappresentato come un JWS e le 
 JWT Claims Set sono inserite nel JWS Payload assicurandone la firma.
 
-Se l'intestazione JOSE è per un JWE, il JWT è rappresentato come JWE e 
+Se il JOSE Header è per un JWE, il JWT è rappresentato come JWE e 
 le JWT Claims Set sono crittografate in quanto rappresentano il testo 
 in chiaro crittografato da JWE. 
 
-Un JWT prevede la possibilità di essere racchiuso in un'altra struttura 
-JWE o JWS per creare un JWT annidato, consentendo l'esecuzione della 
-firma e della crittografia annidate
-JWT è definito dall’Internet Engineering Task Force nell’RFC 7519 [5]_, a 
-cui si rimanda per approfondimenti.
+Un JWT può anche prevede la possibilità di essere racchiuso in un'altra 
+struttura JWE o JWS per creare un JWT annidato, consentendo l'esecuzione 
+della firma e della crittografia annidate JWT è definito dall’Internet 
+Engineering Task Force nell’RFC 7519 [5]_, a cui si rimanda per approfondimenti.
 
 I JWT DEVONO essere usati rispettando le indicazioni di sicurezza indicate in :RFC:`8725`.
 
@@ -117,7 +116,7 @@ Le Linee Guida include, quale strumento operativo, l’allegato
 “Raccomandazioni in merito agli algoritmi per XML Canonicalization, 
 Digest and signature public key SOAP e Digest and signature public key 
 REST” in cui sono tabellati anche gli algoritmi crittografici individuati 
-in JWA. In merito al citato all’allegato si ricorda che, cosi come 
+in JWA. In merito al citato all’allegato si ricorda che, così come 
 indicato al paragrafo :ref:`structure`, l’aggiornamento è assicurato 
 attraverso Circolari emanate dall’AgID.
 
@@ -125,34 +124,34 @@ OAuth 2.0
 ---------
 
 OAuth 2.0 è un protocollo che consente alle applicazioni di accedere 
-alle risorse protette di un servizio per conto dell'utente e permette 
+alle risorse protette di un servizio per conto di un soggetto e permette 
 di proteggere risorse HTTP come un'API REST. 
 
 OAuth 2.0 prevede per ogni ruolo un compito ben definito, permettendo 
 una più robusta sicurezza dell'architettura di autorizzazione.
 
 - Resource Owner: è il proprietario dell'informazione esposta via HTTP.
-- Client: è l'applicazione che richiede l'accesso alla risorsa HTTP.
+- Client: è l'applicazione autorizzata dal Resource Owner che richiede 
+  l'accesso alla risorsa HTTP.
 - Authorization Server: è il modulo che firma e rilascia i token di accesso.
 - Resource Server: è il server che detiene l'informazione esposta via HTTP.
   
 Un Grant Type è il processo da seguire per ottenere il cosiddetto 
-Authorization Grant, ovvero la prova inoppugnabile dell'avvenuta 
-autorizzazione da parte del Resource Owner, il titolare dell'informazione, 
-a cui l'applicazione Client sta cercando di accedere. OAuth 2.0 definisce 
-4 Grant Type: Authorization Code Grant Type, Implicit Grant Type, 
-Resource Owner Password Credentials Grant Type e Client Credentials 
-Grant Type.
+Authorization Grant, ovvero la prova inoppugnabile che il Resource Owner 
+ha autorizzato l'applicazione Client ad accedere ad una risorsa protetta. 
+OAuth 2.0 definisce 4 Grant Type: Authorization Code Grant Type, Implicit 
+Grant Type, Resource Owner Password Credentials Grant Type e Client 
+Credentials Grant Type.
 
 OAuth 2.0 è definito dall’Internet Engineering Task Force nell’RFC 6749 [7]_, 
 a cui si rimanda per approfondimenti.
 
 Visto che il contesto di interesse è machine-to-machine, dei suddetti 
-Grant Type  sono applicabili il Resource Owner Password Credentials e 
-il Client Credentials. Si precisa che relativamente al Grant Type Resource 
-Owner Password Credentials l’utilizzo dello stesso comporta la cessione 
-a terzi delle credenziali, quindi va valutato attentamente e motivato in 
-relazione al livello di trust del client.
+Grant Type sono applicabili il Resource Owner Password Credentials e 
+il Client Credentials. 
+
+Il Grant Type Resource Owner Password Credentials comporta la cessione 
+a terzi delle credenziali, quindi NON DOVREBBE essere usato.
 
 .. [1]
    Cf.
@@ -160,7 +159,7 @@ relazione al livello di trust del client.
 
 .. [2]
    Cf.
-   https://tools.ietf.org/html/rfc7159
+   https://tools.ietf.org/html/rfc8259
 
 .. [3]
    Cf.
