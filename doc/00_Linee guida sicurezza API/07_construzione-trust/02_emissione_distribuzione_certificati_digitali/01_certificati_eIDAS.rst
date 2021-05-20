@@ -33,4 +33,3 @@ dei certificati qualificati:
 .. forum_italia::
   :topic_id: 22265
   :scope: document
- 
