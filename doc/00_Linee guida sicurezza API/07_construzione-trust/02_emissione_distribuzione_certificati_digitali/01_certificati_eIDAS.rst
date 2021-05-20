@@ -19,19 +19,14 @@ dei certificati qualificati:
    :header-rows: 0
 
    * - **[SIC_API_05]** 
-     - I soggetti afferenti ad un dominio di interoperabilità che rendono 
-       disponibili API DEVONO accettare i certificati qualificati emessi 
-       da una CAQ eIDAS per autenticare gli altri soggetti utilizzatori 
-       delle stesse API.
+     - Gli Erogatori DEVONO accettare i certificati qualificati emessi 
+       da una CAQ eIDAS per autenticare i Fruitori.
 
    * - **[SIC_API_06]** 
-     - I soggetti che rendono disponibili API DEVONO verificare la 
-       validità dei certificati qualificati emessi da una CAQ, compresa 
-       l’eventuale revoca degli stessi, ogni volta che i certificati
-       vengono utilizzati (ad esempio per stabilire una sessione TLS) da parte 
-       di soggetti delle stesse API per cui è abilitato l’accesso.
-
-   
+     - Gli Erogatori DEVONO verificare la validità dei certificati 
+       qualificati emessi da una CAQ, compresa l’eventuale revoca degli 
+       stessi, ad ogni utilizzo da parte dei Fruitori
+       (ad esempio per stabilire una sessione TLS).
 
 .. forum_italia::
   :topic_id: 22265

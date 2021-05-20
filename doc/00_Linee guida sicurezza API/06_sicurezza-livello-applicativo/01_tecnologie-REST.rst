@@ -10,10 +10,9 @@ per l’implementazione delle API.
 
 Nel contesto delle tecnologie REST, in relazione ai temi oggetto delle 
 Linee Guida, si evidenziano le specifiche JSON-based JWT (JSON Web Token), 
-JWS (JSON Web Signatures),
-JWK (JSON Web Key),
-JWE (JSON Web Encryption) e JWA (JSON Web Algorithms)
-per assicurare la sicurezza dei messaggi scambiati tramite API REST. 
+JWS (JSON Web Signatures), JWK (JSON Web Key), JWE (JSON Web Encryption) e 
+JWA (JSON Web Algorithms) per assicurare la sicurezza dei messaggi scambiati 
+tramite API REST. 
 
 JSON - JavaScript Object Notation
 ---------------------------------
@@ -51,6 +50,12 @@ ed è rappresentata dalla concatenazione:
 
    BASE64URL(UTF8(JWS Header)) ||'.' || BASE64URL(JWS Payload) || '.' || BASE64URL(JWS Signature)
 
+Quando si firma un messaggio, si DEVONO prendere in considerazione una 
+serie di possibili minacce, tra cui:
+- la contraffazione delle firme o l'alterazione del contenuto;
+- errati processi di validazione e verifica;
+- il riuso non autorizzato di messaggi firmati.
+Questo è particolarmente importante quando si utilizzano JWS nei processi di autenticazione o autorizzazione.
 JWS è definito dall’Internet Engineering Task Force nell’:rfc:`7515` [3]_, 
 a cui si rimanda per approfondimenti.
 
@@ -173,7 +178,7 @@ Grant Type sono applicabili il Resource Owner Password Credentials e
 il Client Credentials. 
 
 Il Grant Type Resource Owner Password Credentials comporta la cessione 
-a terzi delle credenziali, quindi NON DOVREBBE essere usato.
+a terzi delle credenziali, quindi NON DEVE essere usato.
 
 .. [1]
    Cf.
