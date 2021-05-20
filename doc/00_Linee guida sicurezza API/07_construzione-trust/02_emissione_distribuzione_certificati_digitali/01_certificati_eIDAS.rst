@@ -28,8 +28,6 @@ dei certificati qualificati:
        stessi, ogni volta che i certificati vengono utilizzati (ad esempio 
        per stabilire una sessione TLS) da parte dei Fruitori.
 
-   
-
 .. forum_italia::
   :topic_id: 22265
   :scope: document

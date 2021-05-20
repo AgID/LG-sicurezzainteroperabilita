@@ -114,6 +114,9 @@ struttura JWE o JWS per creare un JWT annidato, consentendo l'esecuzione
 della firma e della crittografia annidate JWT è definito dall’Internet 
 Engineering Task Force nell’RFC 7519 [5]_, a cui si rimanda per approfondimenti.
 
+I JWT DEVONO essere usati rispettando le indicazioni di sicurezza indicate in :RFC:`8725`.
+
+
 JWA - JSON Web Algorithms
 -------------------------
 
