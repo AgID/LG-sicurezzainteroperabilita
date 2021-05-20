@@ -106,22 +106,20 @@ a cui si rimanda per approfondimenti.
 JWT - JSON Web Token
 --------------------
 JWT veicola asserzioni da trasmettere (JWT Claims Set) utilizzando 
-strutture JSON e codificato in base64url. I JWT sono firmati digitalmente 
+strutture JSON e codificando in base64url. I JWT sono firmati digitalmente
 e/o crittografati rispettivamente utilizzando JWS e JWE. 
 
-Il JOSE Header contiene le operazioni crittografiche applicate al 
-JWT Claims Set. 
-
-Se il JOSE Header è per un JWS, il JWT è rappresentato come un JWS e le 
-JWT Claims Set sono inserite nel JWS Payload assicurandone la firma.
-
-Se il JOSE Header è per un JWE, il JWT è rappresentato come JWE e 
-le JWT Claims Set sono crittografate in quanto rappresentano il testo 
-in chiaro crittografato da JWE. 
+Il JOSE Header contiene le operazioni crittografiche applicate al
+JWT Claims Set:
+in un JWS, esso indica come è stato firmato
+il JWT Claims Set incluso nel JWS Payload;
+mentre in un JWE, indica come è stato cifrato
+il JWT Claims Set incluso nel JWE Ciphertext.
 
 Un JWT può anche prevede la possibilità di essere racchiuso in un'altra 
 struttura JWE o JWS per creare un JWT annidato, consentendo l'esecuzione 
-della firma e della crittografia annidate JWT è definito dall’Internet 
+della firma e della crittografia annidate.
+JWT è definito dall’Internet
 Engineering Task Force nell’:rfc:`7519` [5]_, a cui si rimanda per approfondimenti.
 
 I JWT DEVONO essere usati rispettando le indicazioni di sicurezza indicate in :RFC:`8725`.
