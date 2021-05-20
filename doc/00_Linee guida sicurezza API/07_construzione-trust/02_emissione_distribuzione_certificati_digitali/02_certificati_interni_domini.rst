@@ -55,8 +55,8 @@ dominio di interoperabilità è caratterizzato dai seguenti passi:
    dominio di interoperabilità alla CA del dominio di interoperabilità 
    la richiesta di certificazione CSR, in formato PKCS#10;
 3. La CA del dominio di interoperabilità identifica il soggetto richiedente 
-   e, in caso di identificazione positiva, provvede a generare il certificato 
-   e a fornirlo al soggetto richiedente.
+   e, in caso positivo, provvede a generare il certificato e a fornirlo 
+   al soggetto richiedente.
 
 .. _`gestione-revoca`:
 

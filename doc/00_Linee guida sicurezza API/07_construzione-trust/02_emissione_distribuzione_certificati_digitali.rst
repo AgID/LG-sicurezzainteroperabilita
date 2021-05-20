@@ -3,7 +3,7 @@ Modalità di emissione e distribuzione dei certificati digitali
 
 La costituzione del trust tra i soggetti erogatori e fruitori delle API, 
 entro cui le parti riconoscono i certificati digitali, è il presupposto 
-per la realizzazione di uno scambio sicuro basato sulle API. 
+per realizzare uno scambio sicuro basato sulle API. 
 
 Di seguito si riportano le modalità per l’emissione di certificati 
 digitali. 

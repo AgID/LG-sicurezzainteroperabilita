@@ -4,7 +4,8 @@ Introduzione
 Le Linee Guida, si focalizzano sulle tecnologie e le loro modalità di 
 utilizzo al fine di garantire la sicurezza delle transazioni digitali 
 realizzate tra e verso le pubbliche amministrazioni che utilizzano le 
-application programming interface tramite Internet (di seguito API). 
+application programming interface tramite tramite rete di collegamento 
+informatica (di seguito API). 
 
 Le Linee Guida contribuiscono alla definizione del modello di 
 interoperabilità delle pubbliche amministrazioni (di seguito MODI), 

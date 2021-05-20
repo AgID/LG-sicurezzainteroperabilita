@@ -10,9 +10,8 @@ stabilite a livello di trasporto.
 Il MODI individua SOAP e REST quali tecnologie da utilizzare per 
 implementare le interazioni tra erogatori e fruitori.
 
-Di seguito sono riportati, raggruppati per le tecnologie SOAP e REST, 
-gli standard che utilizzati per assicura la sicurezza delle interazioni 
-nel MODI.
+Di seguito sono riportati, raggruppati per le tecnologia, gli standard 
+da utilizzare per assicura la sicurezza delle interazioni nel MODI.
 
 .. list-table:: 
    :widths: 15 40
