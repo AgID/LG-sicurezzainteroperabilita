@@ -4,12 +4,12 @@ Introduzione
 Le Linee Guida, si focalizzano sulle tecnologie e le loro modalità di 
 utilizzo al fine di garantire la sicurezza delle transazioni digitali 
 realizzate tra e verso le pubbliche amministrazioni che utilizzano le 
-application programming interface tramite tramite rete di collegamento 
+application programming interface tramite rete di collegamento 
 informatica (di seguito API). 
 
 Le Linee Guida contribuiscono alla definizione del modello di 
 interoperabilità delle pubbliche amministrazioni (di seguito MODI), 
-definito da AgID ai sensi dell’articolo 73 [1]_ e 75 [2]_ del decreto 
+definito da AgID ai sensi della lettera b) comma 3-bis articolo 73 del decreto 
 legislativo 7 marzo 2005, n. 82 e successive modifiche e integrazioni 
 (di seguito CAD).
 
