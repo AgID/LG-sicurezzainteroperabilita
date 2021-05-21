@@ -37,6 +37,7 @@ in alcuni ambiti può essere opportuno limitare l'espressività della notazione
 (eg. limitando il numero di oggetti nidificati in fase di processamento o di serializzazione).
 Si veda a questo riguardo :rfc:`7493`, che definisce un sottoinsieme interoperabile di JSON
 e che include tra l'altro raccomandazioni su:
+
 - unicode code points da evitare;
 - quando serializzare numeri in formato di stringa;
 - accortezze riguardo la gestione di chiavi duplicate.
